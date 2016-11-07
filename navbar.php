@@ -31,6 +31,16 @@
                 <ul class="nav navbar-nav navbar-right">
                   <li><a href="#">Boutique</a></li>
 
+                  <!-- sidenav -->
+                  <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <h3>Panier</h3>
+                    <a href="#">Exemple</a>
+                    <a href="#">Ticket</a>
+                    <a href="#">Porte-clé</a>
+                    <a href="#">T-shirt</a>
+                  </div>
+
                   <!-- dropdowns -->
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informations <span class="caret"></span></a>
@@ -52,6 +62,9 @@
                       <li><a href="#">Separated link</a></li>
                     </ul>
                   </li>
+
+                  <!-- ouvrir sidenav -->
+                  <li><span onclick="openNav()"><i class="fa fa-shopping-cart fa-2x" aria-hidden="false"></i></span></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div>
