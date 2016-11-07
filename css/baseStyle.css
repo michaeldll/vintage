@@ -128,3 +128,7 @@ footer{
 .fa-shopping-cart:hover{
   cursor: pointer;
 }
+.compte{
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
