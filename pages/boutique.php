@@ -14,8 +14,8 @@
     <link rel="icon" type="image/ico" href="http://195.83.128.55/~mmid116a05/img/icone1.ico">
     <title>Vintage Wings</title>
     <script src="https://use.fontawesome.com/ffa9c99182.js"></script>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/baseStyle.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/baseStyle.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -24,17 +24,13 @@
   </head>
   <body>
     <div class="container">
-
+      <?php include("../navbar.php"); ?>
       <div class="row">
         <div class="centered"><h1>Voyagez Vintage</h1></div>
         <div class="col-md-1"></div>
         <div class="col-md-5">
           <h3>Les wings points</h3>
-          <img src="../img/hey.png" alt="here">
-        </div>
-        <div class="col-md-5">
-          <h3>Se préparer au voyage</h3>
-          <img src="../img/hey.png">
+          <img src="../img/hey.png" alt="here" width="20%" height="20%">
         </div>
       </div>
         <div class="row">
@@ -51,7 +47,7 @@
       integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
       crossorigin="anonymous">
       </script>
-      <script src="js/bootstrap.min.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
       <script>//hehe - mike
           function pleaseDontCrashBrowser(){
           // loop ici
