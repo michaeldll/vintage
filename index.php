@@ -31,6 +31,190 @@
 
           <!-- carousel -->
           <div id="slider" class="carousel slide" data-ride="carousel" data-interval="20000">
+
+            <!-- formulaire reservation -->
+              <div class="col-md-4 form">
+                <ul class="nav nav-tabs">
+                  <li class="active"><a href=#volTraditionnel data-toggle="tab">Vol traditionnel</a></li>
+                  <li><a href=#volEvent data-toggle="tab">Vol événementiel</a></li>
+                </ul>
+
+                <!-- contenu onglets -->
+                <div class="tab-content">
+
+                  <!-- onglet vol traditionnel -->
+                  <div class="tab-pane active" id="volTraditionnel">
+                    <form action="#" method="post">
+                      <p>
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-plane" aria-hidden="true"></i></span>
+                        <select class="form-control">
+                          <option value="1">Départ de :</option>
+                          <option>Paris</option>
+                          <option>Lyon</option>
+                          <option>Bordeaux</option>
+                          <option>Nantes</option>
+                          <option>Toulouse</option>
+                        </select>
+                      </div>
+                      </p>
+                      <p>
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-plane" aria-hidden="true"></i></span>
+                        <select class="form-control">
+                          <option value="1">Arrivée à :</option>
+                          <option>Paris</option>
+                          <option>Lyon</option>
+                          <option>Bordeaux</option>
+                          <option>Nantes</option>
+                          <option>Toulouse</option>
+                        </select>
+                      </div>
+                      </p>
+                      <p>
+                      <div class="row">
+                        <div class="col-md-8">
+                          <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                            <input class="form-control" type="date" min="2016-11-07" max="2016-12-31" value=>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <select class="form-control">
+                            <option>+/- 3 jours</option>
+                            <option>+/- 2 jours</option>
+                            <option>+/- 1 jour</option>
+                            <option>+/- 0 jour</option>
+                          </select>
+                        </div>
+                      </div>
+                      </p>
+                      <p>
+                      <div class="row">
+                        <div class="col-md-8">
+                          <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                            <input class="form-control" type="date" min="2016-11-07" max="2016-12-31" value=>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <select class="form-control">
+                            <option>+/- 3 jours</option>
+                            <option>+/- 2 jours</option>
+                            <option>+/- 1 jour</option>
+                            <option>+/- 0 jour</option>
+                          </select>
+                        </div>
+                      </div>
+                      </p>
+                      <p>
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                        <input class="form-control" type="number" step="1" min="1" value="1"/>
+                      </div>
+                      </p>
+                      <p>
+                      <div class="centered">
+                        <input type="submit" value="Rechercher" class="btn btn-lg btn-primary"/>
+                      </div>
+                      </p>
+                    </form>
+                  </div>
+
+                  <!-- onglet vol evenement -->
+                  <div class="tab-pane" id="volEvent">
+                    <form action="#" method="post">
+                      <p>
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-star" aria-hidden="true"></i></span>
+                        <select class="form-control">
+                          <option value="1">Evénement :</option>
+                          <option>Lune de Miel</option>
+                          <option>Anniversaire</option>
+                          <option>Départ en retraite</option>
+                          <option>Musée volant</option>
+                        </select>
+                      </div>
+                      </p>
+                      <p>
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-plane" aria-hidden="true"></i></span>
+                        <select class="form-control">
+                          <option value="1">Départ de :</option>
+                          <option>Paris</option>
+                          <option>Lyon</option>
+                          <option>Bordeaux</option>
+                          <option>Nantes</option>
+                          <option>Toulouse</option>
+                        </select>
+                      </div>
+                      </p>
+                      <p>
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-plane" aria-hidden="true"></i></span>
+                        <select class="form-control">
+                          <option value="1">Arrivée à :</option>
+                          <option>Paris</option>
+                          <option>Lyon</option>
+                          <option>Bordeaux</option>
+                          <option>Nantes</option>
+                          <option>Toulouse</option>
+                        </select>
+                      </div>
+                      </p>
+                      <p>
+                      <div class="row">
+                        <div class="col-md-8">
+                          <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                            <input class="form-control" type="date" min="2016-11-07" max="2016-12-31" value=>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <select class="form-control">
+                            <option>+/- 3 jours</option>
+                            <option>+/- 2 jours</option>
+                            <option>+/- 1 jour</option>
+                            <option>+/- 0 jour</option>
+                          </select>
+                        </div>
+                      </div>
+                      </p>
+                      <p>
+                      <div class="row">
+                        <div class="col-md-8">
+                          <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                            <input class="form-control" type="date" min="2016-11-07" max="2016-12-31" value=>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <select class="form-control">
+                            <option>+/- 3 jours</option>
+                            <option>+/- 2 jours</option>
+                            <option>+/- 1 jour</option>
+                            <option>+/- 0 jour</option>
+                          </select>
+                        </div>
+                      </div>
+                      </p>
+                      <p>
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                        <input class="form-control" type="number" step="1" min="1" value="1"/>
+                      </div>
+                      </p>
+                      <p>
+                      <div class="centered">
+                        <input type="submit" value="Rechercher" class="btn btn-lg btn-primary"/>
+                      </div>
+                      </p>
+                    </form>
+                  </div>
+                </div>
+
+              </div>
+
             <!-- cercles -->
             <ol class="carousel-indicators">
               <li data-target="#slider" data-slide-to="0" class="active"></li>
