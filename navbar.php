@@ -7,6 +7,31 @@
                    <img alt="logo" src="img/suggestion.svg">
                 </a>
               </div>
+                <div class="navbar-nav navbar-right">
+                <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-info compte" data-toggle="modal" data-target="#myModal">Mon Compte</button>
+
+                <!-- Modal -->
+                <div id="myModal" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Créez votre compte</h4>s
+                      </div>
+                      <div class="modal-body">
+                        <p>Créez votre compte ici!</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">Fermer</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="container-fluid">
@@ -23,13 +48,13 @@
                 <!-- liens a gauche -->
                 <ul class="nav navbar-nav">
                   <li class="active"><a href="#">Accueil <span class="sr-only">(current)</span></a></li>
-                  <li><a href="#">Réserver un vol</a></li>
+                  <li><a href="pages/reserver.php">Réserver un vol</a></li>
                   <li><a href="#">Mes réservations</a></li>
                 </ul>
 
                 <!-- liens a droite -->
                 <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">Boutique</a></li>
+                  <li><a href="pages/boutique.php">Boutique</a></li>
 
                   <!-- sidenav -->
                   <div id="mySidenav" class="sidenav">
