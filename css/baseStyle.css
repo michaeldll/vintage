@@ -11,7 +11,6 @@ body {
 }
 .navbar-brand img{
   width: 9rem;
-  margin-top: -20px: 
 }
 .icon-bar{
   background-color: black;
@@ -45,4 +44,21 @@ p{
 }
 footer{
   background-color: #eaeaea;
+}
+
+/* responsive logo et collapse */
+@media screen and (max-width: 768px){
+  .navbar-brand img{
+    width: 8rem;
+  }
+}
+@media screen and (max-width: 576px){
+  .navbar-brand img{
+    width: 8rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+   .navbar-collapse {
+       display: none!important;
+   }
 }
