@@ -503,3 +503,6 @@ ul.lienFlotte li{
 .navbar-right{
   margin-right: 0px !important;
 }
+.cacherReservation{
+    display: none;
+}
