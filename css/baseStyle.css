@@ -1,6 +1,5 @@
 
 body {
-  padding-top: 20px;
   padding-bottom: 20px;
   background-color: #eaeaea
 }
@@ -8,7 +7,9 @@ body {
   margin: 5vh;
 }
 .navbar-brand{
-  float: none;
+    float: none;
+    z-index: 2;
+    margin-left: 0px!important;
 }
 .navbar-brand img{
   width: 9rem;
@@ -29,7 +30,8 @@ body {
   background-color: #4c4c47;
 }
 .navbar{
-  background-color: #fff;
+    background-color: #fff;
+    margin-bottom: 0!important;
 }
 .navbar li a:hover{
   background-color: #fff;
@@ -470,8 +472,6 @@ footer{
     position: absolute;
     z-index: 2;
     top: 0;
-    margin-top: 20px;
-    margin-left: 20px;
 }
 .nav-tabs{
     background-color: #d9d9d9;
@@ -505,4 +505,22 @@ ul.lienFlotte li{
 }
 .cacherReservation{
     display: none;
+}
+.contact{
+    background-color: #444;
+    color: white;
+}
+#gMaps{
+    color: white;
+}
+.logoReseau{
+    margin: 20px 10px 0px;
+    height: 40px;
+    width: 40px;
+}
+.mapMarker{
+    width: 40px;
+}
+#motDeP{
+    text-align: right;
 }
