@@ -23,11 +23,11 @@
     <![endif]-->
   </head>
   <body>
+    <!-- navbar -->
+    <?php include('navbar.php'); ?>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <!-- navbar -->
-          <?php include('navbar.php'); ?>
 
           <!-- carousel -->
           <div id="slider" class="carousel slide" data-ride="carousel" data-interval="20000">
