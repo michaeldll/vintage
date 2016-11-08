@@ -24,7 +24,7 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="../index.php">Accueil <span class="sr-only">(current)</span></a></li>
                 <li><a href="reserver.php">Réserver un vol</a></li>
-                <li><a href="reservations.php">Mes réservations</a></li>
+                <li><a href="reservation.php">Mes réservations</a></li>
             </ul>
 
             <!-- liens a droite -->
@@ -42,10 +42,22 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title">Créez votre compte</h4>
+                                <h4 class="modal-title">Identification</h4>
                             </div>
                             <div class="modal-body">
-                                <p>Créez votre compte ici!</p>
+                                <form action="#" method="post">
+                                    <p><label for="login">Identifiant</label></p>
+                                    <p><input class="form-control" type="text" placeholder="Mail" name="login"></p>
+                                    <div class="row">
+                                        <div class="col-md-6"><p><label for="password">Mot de passe</label></p></div>
+                                        <div class="col-md-6" id="motDeP"><a href="#">Mot de passe oublié</a></div>
+                                    </div>
+                                    <p><input class="form-control" type="password" placeholder="Mot de passe" name="password"></p>
+                                    <div class="centered"><input type="submit" class="btn btn-lg btn-primary" value="Me connecter"></div>
+                                </form>
+                                <div class="centered">
+                                    <p><a href="#">Créer votre compte</a></p>
+                                </div>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-info" data-dismiss="modal">Fermer</button>
@@ -87,7 +99,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="#">Historique</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Notre flotte</a></li>
+                        <li><a href="flotte.php">Notre flotte</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="#">Villes desservies</a></li>
                     </ul>

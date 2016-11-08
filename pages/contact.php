@@ -25,111 +25,63 @@
 </head>
 <body>
 <?php include("navbar.php"); ?>
-<div class="container">
+<div class="container-fluid">
 
-    <!-- reservation -->
-    <div class="centered"><h1>Mes réservations</h1></div>
-
-    <!-- reservation 1 -->
     <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-            <button class="btn btn-default" id="boutonReservation1">Paris -> Bordeaux</button>
-        </div>
-    </div>
-    <!-- detail reservation 1 -->
-    <div id="reservation1" class="cacherReservation">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <h4>Date</h4>
-                <p>15/11/2016 à 16:03</p>
-                <h4>Nombre de passagers</h4>
-                <p>1</p>
-                <h4>Avion</h4>
-                <p>DC-8</p>
-                <h4>Classe en cabine</h4>
-                <p>Economique</p>
-                <h4>Options</h4>
-                <p>Assurance</p>
-                <p>Animal de compagnie</p>
-                <div class="centered">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-default">Modifier</button>
-                        <button type="button" class="btn btn-default">Annuler</button>
-                    </div>
+        <!-- contact partie gauche -->
+        <div class="col-md-6 sidebar contact">
+            <h1>Vintage Wings</h1>
+            <br/>
+            <h3>Vous souhaitez en savoir plus ?</h3>
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Email :</h3>
+                    <h3>Téléphone :</h3>
+                    <h3>Réseaux sociaux :</h3>
+                </div>
+                <div class="col-md-9">
+                    <h3>vintagewings@airfrance.fr</h3>
+                    <h3>+33 (0)1.02.03.04.05</h3>
+                    <span><img src="../img/facebook-logo.svg" class="logoReseau"><img src="../img/twitter-logo.svg" class="logoReseau"></span>
                 </div>
             </div>
-            <div class="col-md-1"></div>
-        </div>
-    </div>
-
-    <!-- reservation 2 -->
-    <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-            <button class="btn btn-default" id="boutonReservation2">Bordeaux -> Paris</button>
-        </div>
-    </div>
-    <!-- detail reservation 2 -->
-    <div id="reservation2" class="cacherReservation">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <h4>Date</h4>
-                <p>23/11/2016 à 10:24</p>
-                <h4>Nombre de passagers</h4>
-                <p>1</p>
-                <h4>Avion</h4>
-                <p>DC-8</p>
-                <h4>Classe en cabine</h4>
-                <p>Economique</p>
-                <h4>Options</h4>
-                <p>Assurance</p>
-                <p>Animal de compagnie</p>
-                <div class="centered">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-default">Modifier</button>
-                        <button type="button" class="btn btn-default">Annuler</button>
-                    </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3><a href="https://www.google.fr/maps/place/A%C3%A9roport+de+Paris+-+Le+Bourget/@48.9588697,2.4270812,13.5z/data=!4m5!3m4!1s0x47e66b16c1305e17:0xb73c3697323e1c05!8m2!3d48.9614725!4d2.437202" id="gMaps"><img src="../img/map-marker.svg" class="mapMarker">Retrouver nous sur Google Maps</a></h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29638.712950371195!2d2.427081169215751!3d48.95886970181454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66b16c1305e17%3A0xb73c3697323e1c05!2sA%C3%A9roport+de+Paris+-+Le+Bourget!5e0!3m2!1sfr!2sfr!4v1478615795206" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="col-md-1"></div>
         </div>
-    </div>
 
-    <!-- reservation 3 -->
-    <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-            <button class="btn btn-default" id="boutonReservation3">Paris -> Toulouse</button>
-        </div>
-    </div>
-    <!-- detail reservation 3 -->
-    <div id="reservation3" class="cacherReservation">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <h4>Date</h4>
-                <p>10/12/2016 à 09:20</p>
-                <h4>Nombre de passagers</h4>
-                <p>2</p>
-                <h4>Avion</h4>
-                <p>Boeing 707</p>
-                <h4>Classe en cabine</h4>
-                <p>Affaire</p>
-                <h4>Options</h4>
-                <p>Assurance</p>
-                <p>Animal de compagnie</p>
-                <p>Repas végétarien</p>
-                <div class="centered">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-default">Modifier</button>
-                        <button type="button" class="btn btn-default">Annuler</button>
+        <!-- contact partie droite -->
+        <div class="col-md-6">
+            <h1>Faites nous savoir vos envies</h1>
+            <br/>
+            <form action="#" method="post">
+                <p>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                        <input class="form-control" type="text" placeholder="Nom">
                     </div>
-                </div>
-            </div>
-            <div class="col-md-1"></div>
+                </p>
+                <p>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-at" aria-hidden="true"></i></span>
+                        <input class="form-control" type="text" placeholder="Email">
+                    </div>
+                </p>
+                <p>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <textarea class="form-control" rows="5" placeholder="Votre message"></textarea>
+                    </div>
+                </p>
+                <p>
+                    <div class="centered">
+                        <input type="submit" value="Envoyer" class="btn btn-lg btn-primary"/>
+                    </div>
+                </p>
+            </form>
         </div>
     </div>
 
@@ -216,7 +168,6 @@
         });
     });
 </script>
-
 
 </body>
 </html>

@@ -24,8 +24,8 @@
     <![endif]-->
 </head>
 <body>
+<?php include("navbar.php"); ?>
 <div class="container">
-    <?php include("navbar.php"); ?>
 
     <!-- description flotte -->
     <div class="centered"><h1>Notre flotte</h1></div>
@@ -174,14 +174,12 @@
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
     }
-</script>
-<script type="text/javascript">
+
     /* Zoombox */
     jQuery(function($){
         $('a.zoombox').zoombox();
     });
-</script>
-<script>
+
     /* ScrollTo */
     $(document).ready(function() {
         $('.js-scrollTo').on('click', function() {
