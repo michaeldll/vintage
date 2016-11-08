@@ -24,15 +24,102 @@
   </head>
   <body>
     <div class="container">
-      <?php include("../navbar.php"); ?>
+      <?php include("navbar.php"); ?>
       <div class="row">
-        <div class="centered"><h1>Voyagez Vintage</h1></div>
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-          <h3>Les wings points</h3>
-          <img src="../img/hey.png" alt="here" width="20%" height="20%">
+        <div class="centered"><h1>Boutique</h1></div>
+        <div class="col-md-12">
+          <div class="card-deck-wrapper margintop">
+            <div class="card-deck">
+              <div class="card">
+                  <a href="#myModal1" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="../img/ticket.jpg" class="img-responsive" alt="">
+                  </a>
+                <div class="card-block">
+                  <h4 class="card-title">TICKET D'OR</h4>
+                  <p class="card-text">Achetez un memorabilia collectible pour votre voyage vintage!</p>
+                  <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="../img/hey.png" alt="Card image cap" width="100%">
+                <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+              </div>
+            </div>
+            <div class="card-deck margintop">
+              <div class="card">
+                <img class="card-img-top" src="../img/hey.png" alt="Card image cap" width="100%">
+                <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="../img/hey.png" alt="Card image cap" width="100%">
+                <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+              </div>
+            </div>
+            <div class="card-deck margintop">
+              <div class="card">
+                <img class="card-img-top" src="../img/hey.png" alt="Card image cap" width="100%">
+                <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="../img/hey.png" alt="Card image cap" width="100%">
+                <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted"></small></p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+      <!-- Modals -->
+      <div id="myModal1" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Ticket d'or</h4>
+            </div>
+            <div class="modal-body">
+              <div class="col-md-12">
+              <img src="../img/ticket.jpg" width="100%">
+              <p>Achetez votre ticket d'or pour un bonus collectible!</p>
+              </div>
+              <button type="button" class="btn btn-success panier">Ajouter au panier</button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
         <div class="row">
           <div class="col-md-12">
             <footer class="footer">
