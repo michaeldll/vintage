@@ -1,15 +1,15 @@
 <?php echo '<nav class="navbar">
     <!-- premiere barre -->
-    <div class="container-fluid blackened">
+    <div class="container-fluid couleurBlanche">
         <!-- logo -->
         <div class="logo">
             <a class="navbar-brand" href="#">
-                <img alt="logo" src="img/suggestion.svg">
+                <img alt="logo" src="img/logo.svg">
             </a>
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid couleurBleu">
         <div class="navbar-header">
             <!-- version collapsée navbar -->
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
