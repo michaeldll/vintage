@@ -1,15 +1,15 @@
 <?php echo '<nav class="navbar">
     <!-- premiere barre -->
-    <div class="container-fluid blackened">
+    <div class="container-fluid couleurBlanche">
         <!-- logo -->
         <div class="logo">
             <a class="navbar-brand" href="#">
-                <img alt="logo" src="img/suggestion.svg">
+                <img alt="logo" src="img/logo.svg">
             </a>
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid couleurBleu">
         <div class="navbar-header">
             <!-- version collapsée navbar -->
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -24,7 +24,7 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="index.php">Accueil <span class="sr-only">(current)</span></a></li>
                 <li><a href="pages/reserver.php">Réserver un vol</a></li>
-                <li><a href="pages/reservations.php">Mes réservations</a></li>
+                <li><a href="pages/reservation.php">Mes réservations</a></li>
             </ul>
 
             <!-- liens a droite -->
@@ -67,29 +67,29 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informations <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="pages/preparer.php">Bien se préparer</a></li>
+                        <li><a href="#">Bien se préparer</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/vols.php">Informations vols</a></li>
+                        <li><a href="#">Informations vols</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/aeroport.php">Aéroport Paris - Le Bourget</a></li>
+                        <li><a href="#">Aéroport Paris - Le Bourget</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/bagages.php">Bagages</a></li>
+                        <li><a href="#">Bagages</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/prix.php">Trouver les meilleurs prix</a></li>
+                        <li><a href="#">Trouver les meilleurs prix</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/securite.php">Sécurité</a></li>
+                        <li><a href="#">Sécurité</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/wingspoints.php">Les Wings Points</a></li>
+                        <li><a href="#">Les Wings Points</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">A propos <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="pages/historique.php">Historique</a></li>
+                        <li><a href="#">Historique</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="pages/flotte.php">Notre flotte</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/villes.php">Villes desservies</a></li>
+                        <li><a href="#">Villes desservies</a></li>
                     </ul>
                 </li>
 

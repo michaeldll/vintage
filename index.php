@@ -25,7 +25,7 @@
   <body>
     <!-- navbar -->
     <?php include('navbar.php'); ?>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
 
@@ -34,10 +34,12 @@
 
             <!-- formulaire reservation -->
               <div class="col-md-4 form">
-                <ul class="nav nav-tabs">
-                  <li class="active"><a href=#volTraditionnel data-toggle="tab">Vol traditionnel</a></li>
-                  <li><a href=#volEvent data-toggle="tab">Vol événementiel</a></li>
-                </ul>
+                <div class="centered">
+                  <ul class="nav nav-tabs">
+                    <li class="active"><a href=#volTraditionnel data-toggle="tab" class="onglet">Vol traditionnel</a></li>
+                    <li><a href=#volEvent data-toggle="tab" class="onglet">Vol événementiel</a></li>
+                  </ul>
+                </div>
 
                 <!-- contenu onglets -->
                 <div class="tab-content">
@@ -115,7 +117,7 @@
                       </p>
                       <p>
                       <div class="centered">
-                        <input type="submit" value="Rechercher" class="btn btn-lg btn-primary"/>
+                        <input type="submit" value="Rechercher" class="btn btn-lg btn-gold"/>
                       </div>
                       </p>
                     </form>
@@ -206,7 +208,7 @@
                       </p>
                       <p>
                       <div class="centered">
-                        <input type="submit" value="Rechercher" class="btn btn-lg btn-primary"/>
+                        <input type="submit" value="Rechercher" class="btn btn-lg btn-gold"/>
                       </div>
                       </p>
                     </form>
