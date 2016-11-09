@@ -1,10 +1,11 @@
 
 body {
   padding-bottom: 20px;
-  background-color: #eaeaea
+  background-color: #faf7ff;
 }
 #slider{
-  margin: 5vh;
+    margin: 5vh;
+    margin-top: 0;
 }
 .navbar-brand{
     float: none;
@@ -132,7 +133,7 @@ footer{
     top: 0;
     right: 0;
     margin-bottom: 10px;
-    color: #f5efff!important;
+    color: #365a81!important;
     font-size: 1.4rem;
     margin-right: 40px;
     margin-top: 10px;
@@ -468,21 +469,24 @@ footer{
 }
 
 .form{
-    background-color: white;
+    background-color: #365a81;
     position: absolute;
     z-index: 2;
     top: 0;
+    margin: 40px;
 }
 .nav-tabs{
-    background-color: #d9d9d9;
+    background-color: #365a81;
+    color: #faf7ff;
     border: none!important;
 }
-.nav-tabs li.active a{
-    background-color: white;
+.nav-tabs li.active a, .nav-tabs li a:hover, .nav-tabs li.active a:hover{
+    background-color: #365a81!important;
+    color: #ccaa5b!important;
     border: none!important;
 }
-.nav-tabs li a:hover{
-    border: none!important;
+.onglet{
+    color: #faf7ff;
 }
 .photoFlotte{
     margin-top: 20px;
@@ -523,4 +527,30 @@ ul.lienFlotte li{
 }
 #motDeP{
     text-align: right;
+}
+.couleurBleu{
+    background-color: #365a81;
+}
+.couleurBlanche{
+    background-color: #faf7ff;
+}
+.btn-gold{
+    background-color: #ccaa5b!important;
+    color: #4c4c47!important;
+    border-color: #ccaa5b!important;
+}
+.btn-gold:hover, btn-gold:active, btn-gold:focus{
+    background-color: #e6c986!important;
+    color: #4c4c47!important;
+    border-color: #e6c986!important;
+}
+.form-control, .input-group-addon{
+    background-color: #faf7ff!important;
+    color: #4c4c47!important;
+}
+.carousel-indicators li{
+    border-color: #801621;
+}
+.carousel-indicators .active{
+    background-color: #801621;
 }
