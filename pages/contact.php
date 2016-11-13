@@ -11,7 +11,7 @@
     <meta name="description" content="Reservez un voyage dans un avion légéndaire!">
     <meta name="author" content="Vintage Wings">
     <meta name="keywords" content="Vintage, Wings, Vol, Reservation">
-    <link rel="icon" type="image/ico" href="http://195.83.128.55/~mmid116a05/img/icone1.ico">
+    <link rel="icon" type="image/ico" href="../img/favicon.ico">
     <title>Vintage Wings</title>
     <script src="https://use.fontawesome.com/ffa9c99182.js"></script>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -30,6 +30,7 @@
     <div class="row">
         <!-- contact partie gauche -->
         <div class="col-md-6 sidebar contact">
+            <div class="height40"></div>
             <h1>Vintage Wings</h1>
             <br/>
             <h3>Vous souhaitez en savoir plus ?</h3>
@@ -55,6 +56,7 @@
 
         <!-- contact partie droite -->
         <div class="col-md-6">
+            <div class="height40"></div>
             <h1>Faites nous savoir vos envies</h1>
             <br/>
             <form action="#" method="post">
@@ -86,6 +88,10 @@
     </div>
 
 </div> <!-- fin container -->
+
+<!-- footer -->
+<?php include('footer.php'); ?>
+
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../zoombox/zoombox.js"></script>
@@ -125,48 +131,6 @@
         });
     });
 
-    /* Cacher - Afficher réservations */
-    /* Reservation 1 */
-    var test1 = document.getElementById("reservation1");
-    $(document).ready(function(){
-
-        $("#boutonReservation1").click(function(){
-            if (test1.className == "cacherReservation"){
-                $("#reservation1").removeClass('cacherReservation');
-            }
-            else{
-                $("#reservation1").addClass('cacherReservation');
-            }
-        });
-    });
-
-    /* Reservation 2 */
-    var test2 = document.getElementById("reservation2");
-    $(document).ready(function(){
-
-        $("#boutonReservation2").click(function(){
-            if (test2.className == "cacherReservation"){
-                $("#reservation2").removeClass('cacherReservation');
-            }
-            else{
-                $("#reservation2").addClass('cacherReservation');
-            }
-        });
-    });
-
-    /* Reservation 3 */
-    var test3 = document.getElementById("reservation3");
-    $(document).ready(function(){
-
-        $("#boutonReservation3").click(function(){
-            if (test3.className == "cacherReservation"){
-                $("#reservation3").removeClass('cacherReservation');
-            }
-            else{
-                $("#reservation3").addClass('cacherReservation');
-            }
-        });
-    });
 </script>
 
 </body>

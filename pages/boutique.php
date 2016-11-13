@@ -11,21 +11,23 @@
   <meta name="description" content="Reservez un voyage dans un avion légéndaire!">
   <meta name="author" content="Vintage Wings">
   <meta name="keywords" content="Vintage, Wings, Vol, Reservation">
-  <link rel="icon" type="image/ico" href="http://195.83.128.55/~mmid116a05/img/icone1.ico">
+  <link rel="icon" type="image/ico" href="../img/favicon.ico">
   <title>Vintage Wings</title>
   <script src="https://use.fontawesome.com/ffa9c99182.js"></script>
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/baseStyle.css" rel="stylesheet">
+  <link href="../zoombox/zoombox.css" rel="stylesheet" type="text/css" media="screen" />
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
 <body>
 <?php include("navbar.php"); ?>
 <div class="container">
   <div class="row">
+    <div class="height40"></div>
     <div class="centered"><h1>Boutique</h1></div>
     <div class="col-md-12">
       <div class="card-deck-wrapper margintop">
@@ -129,6 +131,10 @@
   </div>
 
 </div> <!-- fin container -->
+
+<!-- footer -->
+<?php include('footer.php'); ?>
+
 <script
     src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
     integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="

@@ -11,7 +11,7 @@
     <meta name="description" content="Reservez un voyage dans un avion légéndaire!">
     <meta name="author" content="Vintage Wings">
     <meta name="keywords" content="Vintage, Wings, Vol, Reservation">
-    <link rel="icon" type="image/ico" href="http://195.83.128.55/~mmid116a05/img/icone1.ico">
+    <link rel="icon" type="image/ico" href="../img/favicon.ico">
     <title>Vintage Wings</title>
     <script src="https://use.fontawesome.com/ffa9c99182.js"></script>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -25,6 +25,29 @@
 </head>
 <body>
 <?php include("navbar.php"); ?>
+<nav class="navbar couleurBleuClair">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <!-- version collapsée navbar -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarAvion" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse marginTop40" id="navbarAvion">
+            <div class="centered">
+                <ul class="nav navbar-nav navbarAvion">
+                    <li><a href="#avion1" class="js-scrollTo">Avion 1</a></li>
+                    <li><a href="#avion2" class="js-scrollTo">Avion 2</a></li>
+                    <li><a href="#avion3" class="js-scrollTo">Avion 3</a></li>
+                    <li><a href="#avion4" class="js-scrollTo">Avion 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
 <div class="container">
 
     <!-- description flotte -->
@@ -39,118 +62,225 @@
         <div class="col-md-1"></div>
     </div>
 
-    <!-- sous-menu avions -->
-    <div class="centered">
-        <div class="btn-group" role="group">
-            <a href="#avion1" type="button" class="btn btn-default js-scrollTo">Avion 1</a>
-            <a href="#avion2" type="button" class="btn btn-default js-scrollTo">Avion 2</a>
-            <a href="#avion3" type="button" class="btn btn-default js-scrollTo">Avion 3</a>
-            <a href="#avion4" type="button" class="btn btn-default js-scrollTo">Avion 4</a>
-            <a href="#avion5" type="button" class="btn btn-default js-scrollTo">Avion 5</a>
-        </div>
-    </div>
+    <div class="height40"></div>
 
     <!-- description avion 1 -->
     <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-            <h3 id="avion1">Avion 1</h3>
+        <div class="col-md-3 imgNoPadding"><img src="../img/aile_gauche.svg"></div>
+        <div class="col-md-6">
+            <div class="centered">
+                <h3 id="avion1">Avion 1</h3>
+            </div>
         </div>
+        <div class="col-md-3 imgNoPadding"><img src="../img/aile_droite.svg"></div>
     </div>
     <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
+        <div class="col-md-3">
+            <h3>Histoire</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit cursus euismod. Quisque at pellentesque leo. Vestibulum vitae aliquam neque. Vestibulum vel libero orci. Vivamus eget nibh luctus, accumsan elit volutpat, fringilla tortor. Nulla nibh dui, vestibulum in suscipit nec, commodo at metus. Integer nisl enim, tincidunt nec augue maximus, viverra mollis nunc.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit cursus euismod. Quisque at pellentesque leo. Vestibulum vitae aliquam neque.
             </p>
         </div>
-        <div class="col-md-5">
-            <a href="../img/hey.png" title="avion1" class="zoombox zgallery1"><img src="../img/hey.png" width="100%" height="100%"></a>
+        <div class="col-md-6 imgNoPadding">
+
+            <!-- carousel avion 1 -->
+            <div id="sliderAvion1" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#sliderAvion1" data-slide-to="0" class="active"></li>
+                    <li data-target="#sliderAvion1" data-slide-to="1"></li>
+                    <li data-target="#sliderAvion1" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="../img/hey.png" title="avion1" class="zoombox zgallery1"><img src="../img/hey.png" width="100%" height="100%"></a>
+                    </div>
+                    <div class="item">
+                        <a href="../img/hey.png" title="avion1" class="zoombox zgallery1"><img src="../img/hey.png" width="100%" height="100%"></a>
+                    </div>
+                    <div class="item">
+                        <a href="../img/hey.png" title="avion1" class="zoombox zgallery1"><img src="../img/hey.png" width="100%" height="100%"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- fin carousel avion 1 -->
+
         </div>
-        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <h3>Embarqué</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit cursus euismod. Quisque at pellentesque leo. Vestibulum vitae aliquam neque.
+            </p>
+        </div>
     </div>
+
+    <div class="height40"></div>
 
     <!-- description avion 2 -->
     <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-            <h3 id="avion2">Avion 2</h3>
+        <div class="col-md-3 imgNoPadding"><img src="../img/aile_gauche.svg"></div>
+        <div class="col-md-6">
+            <div class="centered">
+                <h3 id="avion2">Avion 2</h3>
+            </div>
         </div>
+        <div class="col-md-3 imgNoPadding"><img src="../img/aile_droite.svg"></div>
     </div>
     <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
+        <div class="col-md-3">
+            <h3>Histoire</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit cursus euismod. Quisque at pellentesque leo. Vestibulum vitae aliquam neque. Vestibulum vel libero orci. Vivamus eget nibh luctus, accumsan elit volutpat, fringilla tortor. Nulla nibh dui, vestibulum in suscipit nec, commodo at metus. Integer nisl enim, tincidunt nec augue maximus, viverra mollis nunc.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit cursus euismod. Quisque at pellentesque leo. Vestibulum vitae aliquam neque.
             </p>
         </div>
-        <div class="col-md-5">
-            <a href="../img/hey.png" title="avion2" class="zoombox zgallery1"><img src="../img/hey.png" width="100%" height="100%"></a>
+        <div class="col-md-6 imgNoPadding">
+
+            <!-- carousel avion 2 -->
+            <div id="sliderAvion2" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#sliderAvion2" data-slide-to="0" class="active"></li>
+                    <li data-target="#sliderAvion2" data-slide-to="1"></li>
+                    <li data-target="#sliderAvion2" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="../img/hey.png" title="avion2" class="zoombox zgallery2"><img src="../img/hey.png" width="100%" height="100%"></a>
+                    </div>
+                    <div class="item">
+                        <a href="../img/hey.png" title="avion2" class="zoombox zgallery2"><img src="../img/hey.png" width="100%" height="100%"></a>
+                    </div>
+                    <div class="item">
+                        <a href="../img/hey.png" title="avion2" class="zoombox zgallery2"><img src="../img/hey.png" width="100%" height="100%"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- fin carousel avion 2 -->
+
         </div>
-        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <h3>Embarqué</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit cursus euismod. Quisque at pellentesque leo. Vestibulum vitae aliquam neque.
+            </p>
+        </div>
     </div>
+
+    <div class="height40"></div>
 
     <!-- description avion 3 -->
     <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-            <h3 id="avion3">Avion 3</h3>
+        <div class="col-md-3 imgNoPadding"><img src="../img/aile_gauche.svg"></div>
+        <div class="col-md-6">
+            <div class="centered">
+                <h3 id="avion3">Avion 3</h3>
+            </div>
         </div>
+        <div class="col-md-3 imgNoPadding"><img src="../img/aile_droite.svg"></div>
     </div>
     <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
+        <div class="col-md-3">
+            <h3>Histoire</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit cursus euismod. Quisque at pellentesque leo. Vestibulum vitae aliquam neque. Vestibulum vel libero orci. Vivamus eget nibh luctus, accumsan elit volutpat, fringilla tortor. Nulla nibh dui, vestibulum in suscipit nec, commodo at metus. Integer nisl enim, tincidunt nec augue maximus, viverra mollis nunc.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit cursus euismod. Quisque at pellentesque leo. Vestibulum vitae aliquam neque.
             </p>
         </div>
-        <div class="col-md-5">
-            <a href="../img/hey.png" title="avion3" class="zoombox zgallery1"><img src="../img/hey.png" width="100%" height="100%"></a>
+        <div class="col-md-6 imgNoPadding">
+
+            <!-- carousel avion 3 -->
+            <div id="sliderAvion3" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#sliderAvion3" data-slide-to="0" class="active"></li>
+                    <li data-target="#sliderAvion3" data-slide-to="1"></li>
+                    <li data-target="#sliderAvion3" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="../img/hey.png" title="avion3" class="zoombox zgallery3"><img src="../img/hey.png" width="100%" height="100%"></a>
+                    </div>
+                    <div class="item">
+                        <a href="../img/hey.png" title="avion3" class="zoombox zgallery3"><img src="../img/hey.png" width="100%" height="100%"></a>
+                    </div>
+                    <div class="item">
+                        <a href="../img/hey.png" title="avion3" class="zoombox zgallery3"><img src="../img/hey.png" width="100%" height="100%"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- fin carousel avion 3 -->
+
         </div>
-        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <h3>Embarqué</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit cursus euismod. Quisque at pellentesque leo. Vestibulum vitae aliquam neque.
+            </p>
+        </div>
     </div>
+
+    <div class="height40"></div>
 
     <!-- description avion 4 -->
     <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-            <h3 id="avion4">Avion 4</h3>
+        <div class="col-md-3 imgNoPadding"><img src="../img/aile_gauche.svg"></div>
+        <div class="col-md-6">
+            <div class="centered">
+                <h3 id="avion4">Avion 4</h3>
+            </div>
         </div>
+        <div class="col-md-3 imgNoPadding"><img src="../img/aile_droite.svg"></div>
     </div>
     <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
+        <div class="col-md-3">
+            <h3>Histoire</h3>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit cursus euismod. Quisque at pellentesque leo. Vestibulum vitae aliquam neque. Vestibulum vel libero orci. Vivamus eget nibh luctus, accumsan elit volutpat, fringilla tortor. Nulla nibh dui, vestibulum in suscipit nec, commodo at metus. Integer nisl enim, tincidunt nec augue maximus, viverra mollis nunc.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit cursus euismod. Quisque at pellentesque leo. Vestibulum vitae aliquam neque.
             </p>
         </div>
-        <div class="col-md-5">
-            <a href="../img/hey.png" title="avion4" class="zoombox zgallery1"><img src="../img/hey.png" width="100%" height="100%"></a>
+        <div class="col-md-6 imgNoPadding">
+
+            <!-- carousel avion 4 -->
+            <div id="sliderAvion4" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#sliderAvion4" data-slide-to="0" class="active"></li>
+                    <li data-target="#sliderAvion4" data-slide-to="1"></li>
+                    <li data-target="#sliderAvion4" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="../img/hey.png" title="avion4" class="zoombox zgallery4"><img src="../img/hey.png" width="100%" height="100%"></a>
+                    </div>
+                    <div class="item">
+                        <a href="../img/hey.png" title="avion4" class="zoombox zgallery4"><img src="../img/hey.png" width="100%" height="100%"></a>
+                    </div>
+                    <div class="item">
+                        <a href="../img/hey.png" title="avion4" class="zoombox zgallery4"><img src="../img/hey.png" width="100%" height="100%"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- fin carousel avion 4 -->
+
         </div>
-        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <h3>Embarqué</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit cursus euismod. Quisque at pellentesque leo. Vestibulum vitae aliquam neque.
+            </p>
+        </div>
     </div>
 
-    <!-- description avion 5 -->
-    <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-            <h3 id="avion5">Avion 5</h3>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit cursus euismod. Quisque at pellentesque leo. Vestibulum vitae aliquam neque. Vestibulum vel libero orci. Vivamus eget nibh luctus, accumsan elit volutpat, fringilla tortor. Nulla nibh dui, vestibulum in suscipit nec, commodo at metus. Integer nisl enim, tincidunt nec augue maximus, viverra mollis nunc.
-            </p>
-        </div>
-        <div class="col-md-5">
-            <a href="../img/hey.png" title="avion5" class="zoombox zgallery1"><img src="../img/hey.png" width="100%" height="100%"></a>
-        </div>
-        <div class="col-md-1"></div>
-    </div>
+    <div class="height40"></div>
 
 </div> <!-- fin container -->
+
+<!-- footer -->
+<?php include('footer.php'); ?>
+
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../zoombox/zoombox.js"></script>

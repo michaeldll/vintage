@@ -11,7 +11,7 @@
     <meta name="description" content="Reservez un voyage dans un avion légéndaire!">
     <meta name="author" content="Vintage Wings">
     <meta name="keywords" content="Vintage, Wings, Vol, Reservation">
-    <link rel="icon" type="image/ico" href="http://195.83.128.55/~mmid116a05/img/icone1.ico">
+    <link rel="icon" type="image/ico" href="../img/favicon.ico">
     <title>Vintage Wings</title>
     <script src="https://use.fontawesome.com/ffa9c99182.js"></script>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -28,6 +28,7 @@
 <div class="container">
 
     <!-- reservation -->
+    <div class="height40"></div>
     <div class="centered"><h1>Mes réservations</h1></div>
 
     <!-- reservation 1 -->
@@ -134,6 +135,10 @@
     </div>
 
 </div> <!-- fin container -->
+
+<!-- footer -->
+<?php include('footer.php'); ?>
+
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../zoombox/zoombox.js"></script>
