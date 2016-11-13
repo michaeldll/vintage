@@ -1,11 +1,14 @@
 
 body {
-  padding-bottom: 20px;
-  background-color: #faf7ff;
+    padding-bottom: 20px;
+    background-color: #fffaf4;
+    font-family: 'Raleway', sans-serif;
+}
+.tavirajFont{
+    font-family: 'Taviraj', serif;
 }
 #slider{
-    margin: 5vh;
-    margin-top: 0;
+    margin: 0;
 }
 .navbar-brand{
     float: none;
@@ -16,10 +19,10 @@ body {
   width: 9rem;
 }
 .icon-bar{
-  background-color: black;
+  background-color: #fffaf4;
 }
 .navbar a{
-  color: black;
+  color: #fffaf4;
 }
 .logo{
   display: flex;
@@ -28,14 +31,15 @@ body {
   height: 40px;
 }
 .blackened{
-  background-color: #4c4c47;
+  background-color: #323232;
 }
 .navbar{
-    background-color: #fff;
+    background-color: #1f3145;
     margin-bottom: 0!important;
+    border-radius: 0;
 }
-.navbar li a:hover{
-  background-color: #fff;
+.navbar li a:hover, .navbar li a:active{
+  background-color: #365a81;
 }
 p{
   text-align: justify;
@@ -123,7 +127,7 @@ footer{
   width: 50px;
   text-align: center;
   padding-top: 8px;
-
+    color: #fffaf4;
 }
 .fa-shopping-cart:hover{
   cursor: pointer;
@@ -133,7 +137,7 @@ footer{
     top: 0;
     right: 0;
     margin-bottom: 10px;
-    color: #365a81!important;
+    color: #1f3145!important;
     font-size: 1.4rem;
     margin-right: 40px;
     margin-top: 10px;
@@ -469,24 +473,26 @@ footer{
 }
 
 .form{
-    background-color: #365a81;
-    position: absolute;
+    background-color: #fffaf4;
     z-index: 2;
-    top: 0;
+    position: absolute;
     margin: 40px;
+    top: 0;
 }
 .nav-tabs{
-    background-color: #365a81;
-    color: #faf7ff;
-    border: none!important;
+    background-color: #fffaf4;
+    color: #999999;
+    border-color: #fffaf4;
 }
 .nav-tabs li.active a, .nav-tabs li a:hover, .nav-tabs li.active a:hover{
-    background-color: #365a81!important;
-    color: #ccaa5b!important;
-    border: none!important;
+    background-color: #fffaf4!important;
+    color: #323232!important;
+    border-color: #fffaf4!important;
+    border-radius: 0;
 }
 .onglet{
-    color: #faf7ff;
+    color: #999999;
+    border-radius: 0;
 }
 .photoFlotte{
     margin-top: 20px;
@@ -511,11 +517,11 @@ ul.lienFlotte li{
     display: none;
 }
 .contact{
-    background-color: #444;
-    color: white;
+    background-color: #1f3145;
+    color: #fffaf4;
 }
 #gMaps{
-    color: white;
+    color: #fffaf4;
 }
 .logoReseau{
     margin: 20px 10px 0px;
@@ -529,28 +535,80 @@ ul.lienFlotte li{
     text-align: right;
 }
 .couleurBleu{
+    background-color: #1f3145;
+}
+.couleurBleuClair{
     background-color: #365a81;
 }
 .couleurBlanche{
-    background-color: #faf7ff;
+    background-color: #fffaf4;
+}
+.couleurJaune{
+    background-color: #ccaa5b;
 }
 .btn-gold{
     background-color: #ccaa5b!important;
-    color: #4c4c47!important;
+    color: #323232!important;
     border-color: #ccaa5b!important;
+    border-radius: 0;
 }
 .btn-gold:hover, btn-gold:active, btn-gold:focus{
     background-color: #e6c986!important;
-    color: #4c4c47!important;
+    color: #323232!important;
     border-color: #e6c986!important;
+    border-radius: 0;
 }
 .form-control, .input-group-addon{
-    background-color: #faf7ff!important;
-    color: #4c4c47!important;
+    background-color: #1f3145;
+    color: #fffaf4;
+    border-radius: 0;
 }
 .carousel-indicators li{
-    border-color: #801621;
+    border-color: #fffaf4;
+    background-color: #fffaf4;
 }
 .carousel-indicators .active{
+    border-color: #801621;
     background-color: #801621;
+}
+.paddingRowLR15{
+    padding: 0px 15px;
+}
+.noPadding{
+    padding: 0px!important;
+}
+.height80{
+    height: 80px;
+}
+.height40{
+    height: 40px;
+}
+.trapezeGauche{
+    width: 100px;
+    height: 0px;
+    border-bottom: 150px solid #1f3145;
+    border-right: 50px solid transparent;
+}
+.marginTop40{
+    margin-top: 40px;
+}
+.marginTop10{
+    margin-top: 10px;
+}
+.padding10{
+    padding: 10px;
+}
+.rightPosition{
+    float: right;
+}
+footer{
+    position: absolute;
+    width: 100%;
+}
+.whiteText{
+    color: #fffaf4;
+}
+.navbarAvion li a:hover{
+    background-color: #6c94c0;
+    color: #323232;
 }
