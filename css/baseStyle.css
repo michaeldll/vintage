@@ -454,8 +454,9 @@ footer{
   margin-top: 20px;
 }
 
-.portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+/* hover */ 
+.securite-hover {
+  background: #CDAA5C;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -464,8 +465,25 @@ footer{
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1;
+.securite-hover:hover {
+  opacity: 0.5!important;
+}
+.securite-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+.securite-hover-content i {
+  margin-top: -12px;
+}
+.securite-hover-content h3,
+.securite-hover-content h4 {
+  margin: 0;
 }
 
 .panier{
