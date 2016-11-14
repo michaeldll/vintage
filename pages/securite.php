@@ -23,9 +23,7 @@
     <![endif]-->
     <style>
         .jumbotron{
-            background-image: url("../img/bg44.jpg");
-            background-repeat: no-repeat;
-            background-position: center center;
+            background: url("../img/bg44.jpg") no-repeat center center;
             background-size: cover;
             height: 350px;
             width: 100%;
@@ -58,148 +56,225 @@
             text-align: center;
         }
         .panel{
-            padding: 50px;
+            text-align: center;
             display: none;
+            background-color: none!important;
+            box-shadow: none!important;
+            border: none!important;
         }
+        .panel5, .panel4, .panel3, .panel2, .panel1{
+            text-align: center;
+            display: none;
+            margin-bottom: 20px;
+        }
+        .pad{
+            padding: 20px 50px;
+        }
+        .slide5, .slide4, .slide3, .slide2, .slide1{
+            text-align: center;
+            background: #CDAA5C;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: all ease 0.5s;
+            -webkit-transition: all ease 0.5s;
+            -moz-transition: all ease 0.5s;
+        }
+        .slide5:hover, .slide4:hover, .slide3:hover, .slide2:hover, .slide1:hover{
+            opacity: 0.5!important;
+        }
+        .slide5-content, .slide4-content, .slide3-content, .slide2-content, .slide1-content{
+            position: absolute;
+            width: 100%;
+            height: 20px;
+            font-size: 20px;
+            text-align: center;
+            top: 50%;
+            margin-top: -12px;
+            color: white;
+        }
+        .slide5-content i, .slide4-content i, .slide3-content i, .slide2-content i, .slide1-content i{
+            margin-top: -12px;
+        }
+
+
+
     </style>
     <link href="https://fonts.googleapis.com/css?family=Raleway|Taviraj" rel="stylesheet">
 </head>
 <body>
 
-    <?php include("navbar.php"); ?>
+<?php include("navbar.php"); ?>
 
-    <div class="jumbotron">
+<div class="jumbotron">
+</div>
+
+<div class="container">
+    <div class="page-header">
+        <h1> Sécurité au vol, notre première priorité.</h1>
     </div>
-
-    <div class="container">
-        <div class="page-header">
-            <h1> Sécurité au vol, notre première priorité.</h1>
-        </div>
     <div class="row">
-    <div class="col-md-12">
-    <div class="card-deck-wrapper margintop">
-        <div class="card-deck">
-        <div class="row">
-        <div class="col-sm-4">
-          <div class="card">
-            <a href="#">
-              <div class="securite-hover">
-                <div class="securite-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="../img/air.jpg" class="img-responsive" alt="">
-            </a>
-            <div class="card-block">
-              <h4 class="card-title">LES PLUS HAUTS STANDARDS</h4>
-              <p class="card-text"> Nous nous engageons à remplir toutes les règles internationales de sécurité au vol.</p>
-              <p class="card-text"><small class="text-muted">Voir plus</small></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card">
-            <a href="#">
-              <div class="securite-hover">
-                <div class="securite-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="../img/air.jpg" class="img-responsive" alt="">
-            </a>
-            <div class="card-block">
-              <h4 class="card-title">LES PLUS HAUTS STANDARDS</h4>
-              <p class="card-text"> Nous nous engageons à remplir toutes les règles internationales de sécurité au vol.</p>
-              <p class="card-text"><small class="text-muted">Voir plus</small></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card">
-            <a href="#">
-              <div class="securite-hover">
-                <div class="securite-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="../img/air.jpg" class="img-responsive" alt="">
-            </a>
-            <div class="card-block">
-              <h4 class="card-title">LES PLUS HAUTS STANDARDS</h4>
-              <p class="card-text"> Nous nous engageons à remplir toutes les règles internationales de sécurité au vol.</p>
-              <p class="card-text"><small class="text-muted">Voir plus</small></p>
-            </div>
-          </div>
-        </div>
-        </div>
-        </div>
-        <div class="card-deck margintop">
-        <div class="row">
-        <div class="col-sm-4">
-          <div class="card">
-            <a href="#">
-              <div class="securite-hover">
-                <div class="securite-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="../img/air.jpg" class="img-responsive" alt="">
-            </a>
-            <div class="card-block">
-              <h4 class="card-title">LES PLUS HAUTS STANDARDS</h4>
-              <p class="card-text"> Nous nous engageons à remplir toutes les règles internationales de sécurité au vol.</p>
-              <p class="card-text"><small class="text-muted">Voir plus</small></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card">
-            <a href="#">
-              <div class="securite-hover">
-                <div class="securite-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="../img/air.jpg" class="img-responsive" alt="">
-            </a>
-            <div class="card-block">
-              <h4 class="card-title">LES PLUS HAUTS STANDARDS</h4>
-              <p class="card-text"> Nous nous engageons à remplir toutes les règles internationales de sécurité au vol.</p>
-              <p class="card-text"><small class="text-muted">Voir plus</small></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card">
-              <div class="securite-hover">
-                <div class="securite-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img src="../img/air.jpg" class="img-responsive" alt="">
-            <div class="card-block">
-              <h4 class="card-title">LES PLUS HAUTS STANDARDS</h4>
-              <p class="card-text"> Nous nous engageons à remplir toutes les règles internationales de sécurité au vol.</p>
-              <p class="card-text"><small class="text-muted">Voir plus</small></p>
-            </div>
-            <div class="panel">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis ut condimentum facilisis. Phasellus nibh arcu, fringilla et turpis eget, lobortis dignissim ex. Maecenas pulvinar eros ipsum, quis dapibus velit feugiat a. Praesent molestie ut magna sed luctus. Sed maximus leo erat, ut laoreet augue rutrum ut. Proin id varius purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ornare leo bibendum erat hendrerit efficitur. Nullam varius orci hendrerit sodales aliquam. Maecenas et purus eros. Donec ultricies nisl non ex sagittis rutrum. Fusce in mollis magna.
+        <div class="col-md-12">
+            <div class="card-deck-wrapper margintop">
+                <div class="card-deck">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="securite-hover">
+                                    <div class="securite-hover-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="../img/air.jpg" class="img-responsive" alt="">
+                                <div class="card-block">
+                                    <h4 class="card-title">LES PLUS HAUTS STANDARDS</h4>
+                                    <p class="card-text"> Nous nous engageons à remplir toutes les règles internationales de sécurité au vol.</p>
+                                    <p class="card-text"><small class="text-muted">Voir plus</small></p>
+                                </div>
+                            </div>
+                        </div>
 
-            Aliquam quis tellus vitae ipsum finibus laoreet quis nec leo. Etiam varius tristique ante ac semper. Vivamus a blandit diam, volutpat rutrum libero. Morbi rutrum, magna at rhoncus pretium, nibh mi dictum mi, quis tristique diam quam ac magna. Duis facilisis mauris ut ex tristique, pretium laoreet justo blandit. Proin commodo purus sit amet tortor volutpat pretium. Etiam blandit est vitae sem porta facilisis. Maecenas rhoncus non quam et sagittis.</div>
-          </div>
-          </div>
-        </div>
-        </div>
-      </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="slide1">
+                                    <div class="slide1-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="../img/air.jpg" class="img-responsive" alt="">
+                                <div class="card-block">
+                                    <h4 class="card-title">LES PLUS HAUTS STANDARDS</h4>
+                                    <p class="card-text"> Nous nous engageons à remplir toutes les règles internationales de sécurité au vol.</p>
+                                    <p class="card-text"><small class="text-muted">Voir plus</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="slide2">
+                                    <div class="slide2-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="../img/air.jpg" class="img-responsive" alt="">
+                                <div class="card-block">
+                                    <h4 class="card-title">LES PLUS HAUTS STANDARDS</h4>
+                                    <p class="card-text"> Nous nous engageons à remplir toutes les règles internationales de sécurité au vol.</p>
+                                    <p class="card-text"><small class="text-muted">Voir plus</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 panel">
+                            <div class="card">
+                                <h2>Standards de sécurité</h2>
+                                <p class="pad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis ut condimentum facilisis. Phasellus nibh arcu, fringilla et turpis eget, lobortis dignissim ex. Maecenas pulvinar eros ipsum, quis dapibus velit feugiat a. Praesent molestie ut magna sed luctus. Sed maximus leo erat, ut laoreet augue rutrum ut. Proin id varius purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ornare leo bibendum erat hendrerit efficitur. Nullam varius orci hendrerit sodales aliquam. Maecenas et purus eros. Donec ultricies nisl non ex sagittis rutrum. Fusce in mollis magna.</p>
+                                <h3>Sous titre ici</h3>
+                                <p class="pad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis ut condimentum facilisis. Phasellus nibh arcu, fringilla et turpis eget, lobortis dignissim ex. Maecenas pulvinar eros ipsum, quis dapibus velit feugiat a. Praesent molestie ut magna sed luctus. Sed maximus leo erat, ut laoreet augue rutrum ut. Proin id varius purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ornare leo bibendum erat hendrerit efficitur. Nullam varius orci hendrerit sodales aliquam. Maecenas et purus eros. Donec ultricies nisl non ex sagittis rutrum. Fusce in mollis magna.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 panel1">
+                            <div class="card">
+                                <h2>Standards de sécurité</h2>
+                                <p class="pad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis ut condimentum facilisis. Phasellus nibh arcu, fringilla et turpis eget, lobortis dignissim ex. Maecenas pulvinar eros ipsum, quis dapibus velit feugiat a. Praesent molestie ut magna sed luctus. Sed maximus leo erat, ut laoreet augue rutrum ut. Proin id varius purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ornare leo bibendum erat hendrerit efficitur. Nullam varius orci hendrerit sodales aliquam. Maecenas et purus eros. Donec ultricies nisl non ex sagittis rutrum. Fusce in mollis magna.</p>
+                                <h3>Sous titre ici</h3>
+                                <p class="pad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis ut condimentum facilisis. Phasellus nibh arcu, fringilla et turpis eget, lobortis dignissim ex. Maecenas pulvinar eros ipsum, quis dapibus velit feugiat a. Praesent molestie ut magna sed luctus. Sed maximus leo erat, ut laoreet augue rutrum ut. Proin id varius purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ornare leo bibendum erat hendrerit efficitur. Nullam varius orci hendrerit sodales aliquam. Maecenas et purus eros. Donec ultricies nisl non ex sagittis rutrum. Fusce in mollis magna.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 panel2">
+                            <div class="card">
+                                <h2>Standards de sécurité</h2>
+                                <p class="pad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis ut condimentum facilisis. Phasellus nibh arcu, fringilla et turpis eget, lobortis dignissim ex. Maecenas pulvinar eros ipsum, quis dapibus velit feugiat a. Praesent molestie ut magna sed luctus. Sed maximus leo erat, ut laoreet augue rutrum ut. Proin id varius purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ornare leo bibendum erat hendrerit efficitur. Nullam varius orci hendrerit sodales aliquam. Maecenas et purus eros. Donec ultricies nisl non ex sagittis rutrum. Fusce in mollis magna.</p>
+                                <h3>Sous titre ici</h3>
+                                <p class="pad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis ut condimentum facilisis. Phasellus nibh arcu, fringilla et turpis eget, lobortis dignissim ex. Maecenas pulvinar eros ipsum, quis dapibus velit feugiat a. Praesent molestie ut magna sed luctus. Sed maximus leo erat, ut laoreet augue rutrum ut. Proin id varius purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ornare leo bibendum erat hendrerit efficitur. Nullam varius orci hendrerit sodales aliquam. Maecenas et purus eros. Donec ultricies nisl non ex sagittis rutrum. Fusce in mollis magna.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card-deck margintop">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="slide3">
+                                    <div class="slide3-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="../img/air.jpg" class="img-responsive" alt="">
+                                <div class="card-block">
+                                    <h4 class="card-title">LES PLUS HAUTS STANDARDS</h4>
+                                    <p class="card-text"> Nous nous engageons à remplir toutes les règles internationales de sécurité au vol.</p>
+                                    <p class="card-text"><small class="text-muted">Voir plus</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="slide4">
+                                    <div class="slide5-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="../img/air.jpg" class="img-responsive" alt="">
+                                <div class="card-block">
+                                    <h4 class="card-title">LES PLUS HAUTS STANDARDS</h4>
+                                    <p class="card-text"> Nous nous engageons à remplir toutes les règles internationales de sécurité au vol.</p>
+                                    <p class="card-text"><small class="text-muted">Voir plus</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="slide5">
+                                    <div class="slide5-content">
+                                        <i class="fa fa-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="../img/air.jpg" class="img-responsive" alt="">
+                                <div class="card-block">
+                                    <h4 class="card-title">LES PLUS HAUTS STANDARDS</h4>
+                                    <p class="card-text"> Nous nous engageons à remplir toutes les règles internationales de sécurité au vol.</p>
+                                    <p class="card-text"><small class="text-muted">Voir plus</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 panel3">
+                            <div class="card">
+                                <h2>Standards de sécurité</h2>
+                                <p class="pad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis ut condimentum facilisis. Phasellus nibh arcu, fringilla et turpis eget, lobortis dignissim ex. Maecenas pulvinar eros ipsum, quis dapibus velit feugiat a. Praesent molestie ut magna sed luctus. Sed maximus leo erat, ut laoreet augue rutrum ut. Proin id varius purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ornare leo bibendum erat hendrerit efficitur. Nullam varius orci hendrerit sodales aliquam. Maecenas et purus eros. Donec ultricies nisl non ex sagittis rutrum. Fusce in mollis magna.</p>
+                                <h3>Sous titre ici</h3>
+                                <p class="pad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis ut condimentum facilisis. Phasellus nibh arcu, fringilla et turpis eget, lobortis dignissim ex. Maecenas pulvinar eros ipsum, quis dapibus velit feugiat a. Praesent molestie ut magna sed luctus. Sed maximus leo erat, ut laoreet augue rutrum ut. Proin id varius purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ornare leo bibendum erat hendrerit efficitur. Nullam varius orci hendrerit sodales aliquam. Maecenas et purus eros. Donec ultricies nisl non ex sagittis rutrum. Fusce in mollis magna.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 panel4">
+                            <div class="card">
+                                <h2>Standards de sécurité</h2>
+                                <p class="pad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis ut condimentum facilisis. Phasellus nibh arcu, fringilla et turpis eget, lobortis dignissim ex. Maecenas pulvinar eros ipsum, quis dapibus velit feugiat a. Praesent molestie ut magna sed luctus. Sed maximus leo erat, ut laoreet augue rutrum ut. Proin id varius purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ornare leo bibendum erat hendrerit efficitur. Nullam varius orci hendrerit sodales aliquam. Maecenas et purus eros. Donec ultricies nisl non ex sagittis rutrum. Fusce in mollis magna.</p>
+                                <h3>Sous titre ici</h3>
+                                <p class="pad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis ut condimentum facilisis. Phasellus nibh arcu, fringilla et turpis eget, lobortis dignissim ex. Maecenas pulvinar eros ipsum, quis dapibus velit feugiat a. Praesent molestie ut magna sed luctus. Sed maximus leo erat, ut laoreet augue rutrum ut. Proin id varius purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ornare leo bibendum erat hendrerit efficitur. Nullam varius orci hendrerit sodales aliquam. Maecenas et purus eros. Donec ultricies nisl non ex sagittis rutrum. Fusce in mollis magna.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-12 panel5">
+                            <div class="card">
+                                <h2>Standards de sécurité</h2>
+                                <p class="pad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis ut condimentum facilisis. Phasellus nibh arcu, fringilla et turpis eget, lobortis dignissim ex. Maecenas pulvinar eros ipsum, quis dapibus velit feugiat a. Praesent molestie ut magna sed luctus. Sed maximus leo erat, ut laoreet augue rutrum ut. Proin id varius purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ornare leo bibendum erat hendrerit efficitur. Nullam varius orci hendrerit sodales aliquam. Maecenas et purus eros. Donec ultricies nisl non ex sagittis rutrum. Fusce in mollis magna.</p>
+                                <h3>Sous titre ici</h3>
+                                <p class="pad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis ut condimentum facilisis. Phasellus nibh arcu, fringilla et turpis eget, lobortis dignissim ex. Maecenas pulvinar eros ipsum, quis dapibus velit feugiat a. Praesent molestie ut magna sed luctus. Sed maximus leo erat, ut laoreet augue rutrum ut. Proin id varius purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ornare leo bibendum erat hendrerit efficitur. Nullam varius orci hendrerit sodales aliquam. Maecenas et purus eros. Donec ultricies nisl non ex sagittis rutrum. Fusce in mollis magna.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    </div>
+</div>
 
-<?php include('footer.php'); ?>
 
 <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script>//hehe - mike
     function pleaseDontCrashBrowser(){
@@ -207,7 +282,7 @@
         for (i = 0; i <= 1; i++) {
             // nouveau lol
             setTimeout(function(){
-                $("#hehe").append('<div class="rotate"><div class="lol"><h2>BOOTSTRAP LOL</h2></div></div>');
+                $("#displayPanel").append('');
             }, 200*i);
         }
     }
@@ -225,10 +300,26 @@
 
     /* SLIDE SECURITE */
     $(document).ready(function(){
-    $(".securite-hover").click(function(){
-        $(".panel").slideToggle("slow");
+        $(".securite-hover").click(function(){
+            $(".panel").slideToggle("slow");
+        });
+        $(".slide1").click(function(){
+            $(".panel1").slideToggle("slow");
+        });
+        $(".slide2").click(function(){
+            $(".panel2").slideToggle("slow");
+        });
+        $(".slide3").click(function(){
+            $(".panel3").slideToggle("slow");
+        });
+        $(".slide4").click(function(){
+            $(".panel4").slideToggle("slow");
+        });
+        $(".slide5").click(function(){
+            $(".panel5").slideToggle("slow");
+        });
     });
-});
+
 </script>
 <?php include('footer.php'); ?>
 </body>
