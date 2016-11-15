@@ -1,6 +1,6 @@
 <?php echo '<nav class="navbar">
     <!-- premiere barre -->
-    <div class="container-fluid couleurBlanche">
+    <div class="container-fluid couleurBlanche height80">
         <!-- logo -->
         <div class="logo">
             <a class="navbar-brand" href="#">
@@ -9,7 +9,7 @@
         </div>
     </div>
 
-    <div class="container-fluid couleurBleu">
+    <div class="container-fluid fondCuirBleu">
         <div class="navbar-header">
             <!-- version collapsée navbar -->
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -21,18 +21,48 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <!-- liens a gauche -->
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="index.php">Accueil <span class="sr-only">(current)</span></a></li>
-                <li><a href="pages/reserver.php">Réserver un vol</a></li>
-                <li><a href="pages/reservation.php">Mes réservations</a></li>
+            <ul class="nav navbar-nav navbar-left">
+                <li class="active text-uppercase"><a href="index.php">Accueil <span class="sr-only">(current)</span></a></li>
+                <li class="text-uppercase"><a href="pages/reserver.php">Réserver un vol</a></li>
+                <li class="text-uppercase"><a href="pages/reservation.php">Mes réservations</a></li>
+                
+                <!-- Vintage wings typo -->
+                <img src="img/vw_typo.svg" id="typoVW">
+                
+                <!-- reseau sociaux -->
+                <a href="https://www.facebook.com"><img src="img/RS_fb.png" id="reseauFB" class="reseau"></a>
+                <a href="https://www.twitter.com"><img src="img/RS_twitter.png" id="reseauTwitter" class="reseau"></a>
+                <a href="https://www.instagram.com"><img src="img/RS_insta.png" id="reseauInsta" class="reseau"></a>
+                <a href="https://www.youtube.com"><img src="img/RS_youtube.png" id="reseauYT" class="reseau"></a>
             </ul>
 
             <!-- liens a droite -->
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="pages/boutique.php">Boutique</a></li>
+                <li class="text-uppercase"><a href="pages/boutique.php">Boutique</a></li>
 
                 <!-- Lien modal -->
-                <a href="#myModal" class="compte" data-toggle="modal">Mon Compte</a>
+                <a href="#myModal" type="button" class="compte btn btn-sm btn-blue text-uppercase" data-toggle="modal">Mon Compte</a>
+                
+                <!-- langue -->
+                <div class="btn-group" id="choixLangue">
+                    <button type="button" class="btn btn-blue btn-sm text-uppercase dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Langue <span class="caret"></span>   
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Français</a></li>
+                        <li><a href="#">Anglais</a></li>
+                    </ul>
+                </div>
+                
+                <!-- recherche -->
+                <form action="#" method="post" id="recherche">
+                    <div class="input-group input-group-sm">
+                        <input class="form-control couleurBlanche blueText" type="text" placeholder="RECHERCHE">
+                        <span class="input-group-btn">
+                            <button class="btn btn-blue" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </span>
+                    </div>
+                </form>
 
                 <!-- Modal -->
                 <div id="myModal" class="modal fade" role="dialog">
@@ -77,32 +107,32 @@
                 </div>
 
                 <!-- dropdowns -->
-                <li class="dropdown">
+                <li class="dropdown text-uppercase">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informations <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="pages/preparer.php">Bien se préparer</a></li>
+                        <li class="text-uppercase"><a href="#">Bien se préparer</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/vols.php">Informations vols</a></li>
+                        <li class="text-uppercase"><a href="#">Informations vols</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/aeroport.php">Aéroport Paris - Le Bourget</a></li>
+                        <li class="text-uppercase"><a href="#">Aéroport Paris - Le Bourget</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/bagages.php">Bagages</a></li>
+                        <li class="text-uppercase"><a href="#">Bagages</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/prix.php">Trouver les meilleurs prix</a></li>
+                        <li class="text-uppercase"><a href="#">Trouver les meilleurs prix</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/securite.php">Sécurité</a></li>
+                        <li class="text-uppercase"><a href="#">Sécurité</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/points.php">Les Wings Points</a></li>
+                        <li class="text-uppercase"><a href="#">Les Wings Points</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
+                <li class="dropdown text-uppercase">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">A propos <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="pages/historique.php">Historique</a></li>
+                        <li class="text-uppercase"><a href="#">Historique</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/flotte.php">Notre flotte</a></li>
+                        <li class="text-uppercase"><a href="pages/flotte.php">Notre flotte</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="pages/villes.php">Villes desservies</a></li>
+                        <li class="text-uppercase"><a href="#">Villes desservies</a></li>
                     </ul>
                 </li>
 
