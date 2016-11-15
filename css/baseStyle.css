@@ -567,6 +567,9 @@ ul.lienFlotte li{
 .fondTransparent{
     background-color: transparent!important;
 }
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff!important
+}
 .btn-blue{
     background-image: url(../img/bleu.png);
     background-size: 1500px 250px;
@@ -575,20 +578,20 @@ ul.lienFlotte li{
     border-radius: 0;
     font-weight: 600;
 }
-.btn-blue:hover, btn-blue:active, btn-blue:focus{
+.btn-blue:hover, btn-blue:active, btn-blue:focus, btn-blue.focus{
     color: #ccaa5b!important;
-    border-color: #365a81;
+    border-color: #365a81!important;
     border-radius: 0;
     font-weight: 600;
 }
 .btn-gold{
-    background-color: #ccaa5b!important;
-    color: #323232!important;
-    border-color: #ccaa5b!important;
+    background-color: #ccaa5b;
+    color: #323232;
+    border-color: #ccaa5b;
     border-radius: 0;
     font-weight: 600;
 }
-.btn-gold:hover, btn-gold:active, btn-gold:focus{
+.btn-gold:hover, btn-gold:active, btn-gold:focus, btn-gold.focus{
     background-color: #e6c986!important;
     color: #323232!important;
     border-color: #e6c986!important;
@@ -753,4 +756,19 @@ footer{
     background-color: #ccaa5b;
     border-radius: 50%;
     z-index: 1;
+}
+#choixLangue{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 170px;
+    margin-top: 25px;
+}
+#recherche{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 170px;
+    margin-right: 290px;
+    margin-top: 25px;
 }
