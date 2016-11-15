@@ -32,6 +32,7 @@
             height: 450px;
             width: 100%;
             overflow: hidden;
+            background-attachment: fixed;
         }
         .page-header{
             border-bottom-color: #b9b9b9;
