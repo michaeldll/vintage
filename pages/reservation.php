@@ -141,7 +141,95 @@
             padding-top: 5px;
         }
         @media screen and (max-width: 1200px){
-
+            .billet {
+                height: 391px;
+                background-size: 980px 391px;
+            }
+            .aller{
+                margin-left: 1px;
+                margin-top: 47px;
+            }
+            .retour{
+                margin-left: 59px;
+            }
+            .details{
+                margin-top: 17px;
+                margin-left: 1px;
+            }
+            .details td span{
+                font-size: 19px
+            }
+            .prix{
+                padding-left: 30px;
+            }
+            .place{
+                padding-left: 30px;
+            }
+            .reference{
+                padding-left: 49px;
+            }
+            .modifDroite{
+                padding-left: 40px;
+            }
+        @media screen and (max-width: 992px){
+            .billet {
+                height: 295px;
+                background-size: 739px 315px;
+            }
+            .billet h2{
+                font-size: 24px;
+                margin-left: 100px;
+                margin-top: 24px;
+            }
+            .modifGaucheGauche{
+                padding-left: 55px;
+            }
+            .aller{
+                margin-left: 4px;
+                margin-top: 37px;
+            }
+            .retour{
+                margin-left: 60px;
+            }
+            .details{
+                margin-top: 6px;
+                margin-left: 1px;
+            }
+            .details td span{
+                font-size: 19px
+            }
+            .prix{
+                padding-left: 30px;
+            }
+            .place{
+                padding-left: 30px;
+            }
+            .reference{
+                padding-left: 10px;
+            }
+            .modifDroite{
+                padding-left: 10px;
+            }
+            .modifGaucheDroite{
+                padding-left: 55px;
+            }
+            .billet table th{
+                font-size: 18px;
+            }
+            .billet table td{
+                font-size: 12px;
+            }
+            .allerRetour{
+                padding-bottom: 6px;
+            }
+            .passager{
+                margin-left: 30px;
+                margin-top: 30px;
+            }
+        @media screen and (max-width: 781px){
+            html{
+                width: 781px;
+            }
         }
     </style>
     <link href="https://fonts.googleapis.com/css?family=Raleway|Taviraj" rel="stylesheet">
