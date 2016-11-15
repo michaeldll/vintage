@@ -11,217 +11,334 @@
     <meta name="description" content="Reservez un voyage dans un avion légéndaire!">
     <meta name="author" content="Vintage Wings">
     <meta name="keywords" content="Vintage, Wings, Vol, Reservation">
-    <link rel="icon" type="image/ico" href="../img/favicon.ico">
+    <link rel="icon" type="image/ico" href="http://195.83.128.55/~mmid116a05/img/icone1.ico">
     <title>Vintage Wings</title>
     <script src="https://use.fontawesome.com/ffa9c99182.js"></script>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/baseStyle.css" rel="stylesheet">
-    <link href="../zoombox/zoombox.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        .body{
+            z-index: 0;
+        }
+        .jumbotron{
+            background: url("../img/bg44.jpg") no-repeat center center;
+            background-size: cover;
+            height: 350px;
+            width: 100%;
+            overflow: hidden;
+        }
+        .nav{
+            padding-left: 55px;
+        }
+        .navbar-right{
+            margin-right: 55px !important;
+        }
+        .compte{
+            margin-right: 95px!important;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+            color: #323232;
+        }
+        .blackened{
+            background-color: #fffaf4;
+            color: #323232;
+        }
+        .nav{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+        }
+        .page-header{
+            border-bottom-color: #b9b9b9;
+        }
+        .billet{
+            background-image: url("../img/billet.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            z-index: 2;
+            height: 445px;
+            margin-bottom: 5vh;
+        }
+        .modifGaucheGauche{
+          width: 26px;
+          height: 26px;
+          z-index: 3;
+          padding-left: 95px;
+        }
+        .modifGaucheDroite{
+          width: 26px;
+          height: 26px;
+          z-index: 3;
+          padding-left: 95px;
+        }
+        .modifDroite{
+          width: 26px;
+          height: 26px;
+          z-index: 3;
+          padding-left: 60px;
+        }
+        table{
+            font-family: 'Open Sans', sans-serif;
+        }
+        .billet h2{
+            font-size: 30px;
+            color: #faf7ff;
+            margin-left: 150px;
+            margin-top: 45px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .billet table th{
+            font-size: 24px;
+        }
+        .billet table td{
+            font-size: 16px;
+        }
+        table{
+            display: inline-block;
+        }
+        .aller{
+            margin-left: 30px;
+            margin-top: 67px;
+        }
+
+        .retour{
+            margin-left: 107px;
+        }
+
+        .details{
+            margin-top: 47px;
+            margin-left: 30px;
+        }
+        .details td span{
+            font-size: 24px
+        }
+
+        .place{
+            padding-left: 40px
+        }
+        .prix{
+            padding-left: 40px
+        }
+        .reference{
+            padding-left: 70px
+        }
+        .passager{
+            margin-left: 30px;
+            margin-top: 60px;
+        }
+        .allerRetour{
+            padding-bottom: 20px;
+        }
+        th{
+            font-weight: normal;
+        }
+        .pad5{
+            padding-top: 5px;
+        }
+        @media screen and (max-width: 1200px){
+
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Taviraj" rel="stylesheet">
 </head>
 <body>
+
 <?php include("navbar.php"); ?>
+
 <div class="container">
-
-    <!-- reservation -->
-    <div class="height40"></div>
-    <div class="centered"><h1>Mes réservations</h1></div>
-
+    <div class="page-header">
+        <h1> Retrouvez vos billets ici.</h1>
+    </div>
+</div>
+<div class="container">
     <!-- reservation 1 -->
     <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-            <button class="btn btn-default" id="boutonReservation1">Paris -> Bordeaux</button>
-        </div>
-    </div>
-    <!-- detail reservation 1 -->
-    <div id="reservation1" class="cacherReservation">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <h4>Date</h4>
-                <p>15/11/2016 à 16:03</p>
-                <h4>Nombre de passagers</h4>
-                <p>1</p>
-                <h4>Avion</h4>
-                <p>DC-8</p>
-                <h4>Classe en cabine</h4>
-                <p>Economique</p>
-                <h4>Options</h4>
-                <p>Assurance</p>
-                <p>Animal de compagnie</p>
-                <div class="centered">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-default">Modifier</button>
-                        <button type="button" class="btn btn-default">Annuler</button>
+        <div class="col-xs-12 billet">
+            <div class="col-xs-8">
+            <h2 class="numReservation">RESERVATION N°1</h2>
+            <table class="aller">
+            <tr>
+                <th class="allerRetour">Aller</th>
+            </tr>
+            <tr>
+                <td class="pad5">DE BOURGET</td>
+                <td class="pad5">
+                    <div class="modifGaucheGauche">
+                        <a href="#"><img src="../img/modif.png"></a>
                     </div>
-                </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="pad5">A BORDEAUX</td>
+                <td class="pad5">
+                    <div class="modifGaucheGauche">
+                        <a href="#"><img src="../img/modif.png"></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="pad5">24 DEC 2016   16:03</td>
+                <td class="pad5">
+                    <div class="modifGaucheGauche">
+                        <a href="#"><img src="../img/modif.png"></a>
+                    </div>
+                </td>
+            </tr>
+            </table>
+            <table class="retour">
+                <tr>
+                <th class="allerRetour">Retour</th>
+                </tr>
+                <tr>
+                <td class="pad5">DE BORDEAUX</td>
+                <td class="pad5">
+                    <div class="modifGaucheDroite">
+                        <a href="#"><img src="../img/modif.png"></a>
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <td class="pad5">A BOURGET</td>
+                <td class="pad5">
+                    <div class="modifGaucheDroite">
+                        <a href="#"><img src="../img/modif.png"></a>
+                    </div>
+                </td>
+                </tr>
+                <tr>
+                <td class="pad5">29 DEC 2016   10:26</td>
+                <td class="pad5">
+                    <div class="modifGaucheDroite">
+                        <a href="#"><img src="../img/modif.png"></a>
+                    </div>
+                </td>
+                </tr>
+                </table>
+                <table class="details">
+                <tr>
+                <td class="classe"><span>Classe</span>: Economique</td>
+                <td class="place"><span>Place</span>: 28B</td>
+                <td class="prix"><span>Prix</span>: 80.00€</td>
+                <td class="reference"><span>Référence</span>: 782563</td>
+                </tr>
+                </table>
             </div>
-            <div class="col-md-1"></div>
+            <div class="col-xs-4">
+                <table class="passager">
+                    <tr>
+                        <th>Nom du Passager</th>
+                    </tr>
+                    <tr>
+                        <td>JOHN DOE</td>
+                    <td>
+                        <div class="modifDroite">
+                            <a href="#"><img src="../img/modif.png"></a>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                        <th>Appareil</th>
+                    </tr>
+                    <tr>
+                        <td>CARAVELLE</td>
+                        <td>
+                            <div class="modifDroite">
+                                <a href="#"><img src="../img/modif.png"></a>
+                            </div>
+                        </td>   
+                    </tr>
+                    <tr>
+                        <th>Place</th>
+                    </tr>
+                    <tr>
+                        <td>28 B</td>
+                    <td>
+                        <div class="modifDroite">
+                            <a href="#"><img src="../img/modif.png"></a>
+                        </div>
+                    </td>
+                    </tr>
+                    <tr>
+                        <th>Option(s)</th>
+                    </tr>
+                    <tr>
+                        <td>SANS</td>
+                    <td>
+                        <div class="modifDroite">
+                            <a href="#"><img src="../img/modif.png"></a>
+                        </div>
+                    </td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
-
+    
     <!-- reservation 2 -->
-    <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-            <button class="btn btn-default" id="boutonReservation2">Bordeaux -> Paris</button>
-        </div>
-    </div>
-    <!-- detail reservation 2 -->
-    <div id="reservation2" class="cacherReservation">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <h4>Date</h4>
-                <p>23/11/2016 à 10:24</p>
-                <h4>Nombre de passagers</h4>
-                <p>1</p>
-                <h4>Avion</h4>
-                <p>DC-8</p>
-                <h4>Classe en cabine</h4>
-                <p>Economique</p>
-                <h4>Options</h4>
-                <p>Assurance</p>
-                <p>Animal de compagnie</p>
-                <div class="centered">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-default">Modifier</button>
-                        <button type="button" class="btn btn-default">Annuler</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-1"></div>
-        </div>
+    <div class="billetFond">
+
     </div>
 
-    <!-- reservation 3 -->
-    <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-            <button class="btn btn-default" id="boutonReservation3">Paris -> Toulouse</button>
-        </div>
-    </div>
-    <!-- detail reservation 3 -->
-    <div id="reservation3" class="cacherReservation">
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-                <h4>Date</h4>
-                <p>10/12/2016 à 09:20</p>
-                <h4>Nombre de passagers</h4>
-                <p>2</p>
-                <h4>Avion</h4>
-                <p>Boeing 707</p>
-                <h4>Classe en cabine</h4>
-                <p>Affaire</p>
-                <h4>Options</h4>
-                <p>Assurance</p>
-                <p>Animal de compagnie</p>
-                <p>Repas végétarien</p>
-                <div class="centered">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-default">Modifier</button>
-                        <button type="button" class="btn btn-default">Annuler</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-1"></div>
-        </div>
-    </div>
+
+
 
 </div> <!-- fin container -->
 
-<!-- footer -->
-<?php include('footer.php'); ?>
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
 <script src="../js/bootstrap.min.js"></script>
-<script type="text/javascript" src="../zoombox/zoombox.js"></script>
 <script>//hehe - mike
     function pleaseDontCrashBrowser(){
         // loop ici
         for (i = 0; i <= 1; i++) {
             // nouveau lol
             setTimeout(function(){
-                $("#hehe").append('<div class="rotate"><div class="lol"><h2>BOOTSTRAP LOL</h2></div></div>');
+                $("#displayPanel").append('');
             }, 200*i);
         }
     }
 
-    /* Set the width of the side navigation to 250px */
+    /*PANIER: Set the width of the side navigation to 250px */
     function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
     }
 
-    /* Set the width of the side navigation to 0 */
+    /*PANIER: Set the width of the side navigation to 0 */
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
     }
 
-    /* Zoombox */
-    jQuery(function($){
-        $('a.zoombox').zoombox();
-    });
 
-    /* ScrollTo */
-    $(document).ready(function() {
-        $('.js-scrollTo').on('click', function() {
-            var page = $(this).attr('href');
-            var speed = 750;
-            $('html, body').animate( { scrollTop: $(page).offset().top }, speed );
-            return false;
-        });
-    });
-
-    /* Cacher - Afficher réservations */
-    /* Reservation 1 */
-    var test1 = document.getElementById("reservation1");
+    /* SLIDE SECURITE */
     $(document).ready(function(){
-
-        $("#boutonReservation1").click(function(){
-            if (test1.className == "cacherReservation"){
-                $("#reservation1").removeClass('cacherReservation');
-            }
-            else{
-                $("#reservation1").addClass('cacherReservation');
-            }
+        $(".securite-hover").click(function(){
+            $(".panel").slideToggle("slow");
+        });
+        $(".slide1").click(function(){
+            $(".panel1").slideToggle("slow");
+        });
+        $(".slide2").click(function(){
+            $(".panel2").slideToggle("slow");
+        });
+        $(".slide3").click(function(){
+            $(".panel3").slideToggle("slow");
+        });
+        $(".slide4").click(function(){
+            $(".panel4").slideToggle("slow");
+        });
+        $(".slide5").click(function(){
+            $(".panel5").slideToggle("slow");
         });
     });
 
-    /* Reservation 2 */
-    var test2 = document.getElementById("reservation2");
-    $(document).ready(function(){
-
-        $("#boutonReservation2").click(function(){
-            if (test2.className == "cacherReservation"){
-                $("#reservation2").removeClass('cacherReservation');
-            }
-            else{
-                $("#reservation2").addClass('cacherReservation');
-            }
-        });
-    });
-
-    /* Reservation 3 */
-    var test3 = document.getElementById("reservation3");
-    $(document).ready(function(){
-
-        $("#boutonReservation3").click(function(){
-            if (test3.className == "cacherReservation"){
-                $("#reservation3").removeClass('cacherReservation');
-            }
-            else{
-                $("#reservation3").addClass('cacherReservation');
-            }
-        });
-    });
 </script>
-
-
+<?php include('footer.php'); ?>
 </body>
 </html>
