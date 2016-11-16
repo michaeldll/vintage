@@ -64,33 +64,64 @@
                     </div>
                 </form>
 
-                <!-- Modal -->
+                <!-- Modal connexion-->
                 <div id="myModal" class="modal fade" role="dialog">
                     <div class="modal-dialog">
 
-                        <!-- Modal content-->
+                        <!-- Modal content connexion-->
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                                 <h4 class="modal-title">Identification</h4>
                             </div>
                             <div class="modal-body">
-                                <form action="#" method="post">
+                                <form action="pages/compte.php" method="post">
                                     <p><label for="login">Identifiant</label></p>
                                     <p><input class="form-control" type="text" placeholder="Mail" name="login"></p>
                                     <div class="row">
                                         <div class="col-md-6"><p><label for="password">Mot de passe</label></p></div>
-                                        <div class="col-md-6" id="motDeP"><a href="#">Mot de passe oublié</a></div>
+                                        <div class="col-md-6" id="motDeP"><a href="#" class="blueText">Mot de passe oublié</a></div>
                                     </div>
                                     <p><input class="form-control" type="password" placeholder="Mot de passe" name="password"></p>
-                                    <div class="centered"><input type="submit" class="btn btn-lg btn-primary" value="Me connecter"></div>
+                                    <div class="centered"><input type="submit" class="btn btn-lg btn-blue" value="Me connecter"></div>
                                 </form>
-                                <div class="centered">
-                                    <p><a href="#">Créer votre compte</a></p>
+                                <div class="centered marginTop10">
+                                    <p><a href="#modalCreer" class="blueText" data-dismiss="modal" data-toggle="modal">Créer votre compte</a></p>
                                 </div>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-info" data-dismiss="modal">Fermer</button>
+                                <button type="button" class="btn btn-gold" data-dismiss="modal">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Modal création compte -->
+                <div id="modalCreer" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        
+                        <!-- Modal content création -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Créer un nouveau compte</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form action="#" method="post">
+                                    <p><label for="mail">Mail</label></p>
+                                    <p><input class="form-control" type="text" placeholder="Mail" name="mail"></p>
+                                    <p><label for="passwd">Mot de passe</label></p>
+                                    <p><input class="form-control" type="password" placeholder="Mot de passe" name="passwd"></p>
+                                    <p><label for="passwdVerif">Confirmer le mot de passe</label></p>
+                                    <p><input class="form-control" type="password" placeholder="Mot de passe" name="passwdVerif"></p>
+                                    <div class="centered"><input type="submit" class="btn btn-lg btn-blue" value="Créer le compte"></div>
+                                </form>
+                                <div class="centered marginTop10">
+                                    <p><a href="#myModal" class="blueText" data-dismiss="modal" data-toggle="modal">Se connecter</a></p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-gold" data-dismiss="modal">Fermer</button>
                             </div>
                         </div>
                     </div>
