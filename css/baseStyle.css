@@ -14,6 +14,7 @@ body {
     float: none;
     z-index: 2;
     margin-left: 0px!important;
+    margin-top: 20px!important;
 }
 .navbar-brand img{
   width: 9rem;
@@ -34,7 +35,6 @@ body {
   background-color: #323232;
 }
 .navbar{
-    background-color: #1f3145;
     margin-bottom: 0!important;
     border-radius: 0;
     border: 0px;
@@ -52,9 +52,6 @@ p{
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-footer{
-  background-color: #fff;
 }
  /* The side navigation menu */
 .sidenav {
@@ -475,7 +472,8 @@ footer{
 .form{
     z-index: 2;
     position: absolute;
-    margin: 40px;
+    margin-top: 50px;
+    margin-left: 130px;
     top: 0;
 }
 .nav-tabs{
@@ -526,15 +524,10 @@ ul.lienFlotte li{
 .cacherReservation{
     display: none;
 }
-.contact{
-    background-color: #1f3145;
-    color: #fffaf4;
-}
 #gMaps{
-    color: #fffaf4;
+    font-weight: 400!important;
 }
 .logoReseau{
-    margin: 20px 10px 0px;
     height: 40px;
     width: 40px;
 }
@@ -614,8 +607,14 @@ ul.lienFlotte li{
 .noPadding{
     padding: 0px!important;
 }
+.height300{
+    height: 300px;
+}
 .height80{
     height: 80px;
+}
+.height60{
+    height: 60px;
 }
 .height40{
     height: 40px;
@@ -632,6 +631,18 @@ ul.lienFlotte li{
 .marginTop10{
     margin-top: 10px;
 }
+.marginTop50{
+    margin-top: 50px;
+}
+.marginTop20{
+    margin-top: 20px;
+}
+.marginTop180{
+    margin-top: 180px;
+}
+.marginL15{
+    margin-left: 15px;
+}
 .padding10{
     padding: 10px;
 }
@@ -646,11 +657,10 @@ footer{
     color: #fffaf4;
 }
 .blueText{
-    color: #1f3145;
+    color: #1f3145!important;
 }
-.navbarAvion li a:hover{
-    background-color: #6c94c0;
-    color: #323232;
+.goldText{
+    color: #e6c986;
 }
 .noBorder{
     border: none;
@@ -666,7 +676,7 @@ footer{
 .footerLink{
     font-weight: 600;
 }
-.footerLink:hover{
+.footerLink:hover, .footerLink:focus, .footerLink:active{
     color: #ccaa5b;
     text-decoration: none;
 }
@@ -708,9 +718,15 @@ footer{
 .marginBottom20{
     margin-bottom: 20px;
 }
+.marginBottom40{
+    margin-bottom: 40px;
+}
 .img100{
     height: 100%;
     width: 100%;
+}
+.imgHeight100{
+    height: 100%;
 }
 #reseauFB{
     position: absolute;
@@ -771,4 +787,79 @@ footer{
     width: 170px;
     margin-right: 290px;
     margin-top: 25px;
+}
+.imgFlotteGauche{
+    background-image: url(../img/aile_gauche.png);
+    height: 60px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.imgFlotteDroite{
+    background-image: url(../img/aile_droite.png);
+    height: 60px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+.paddingTop20{
+    padding-top: 20px;
+}
+.avionTitre{
+    position: absolute;
+    width: 1170px;
+    margin-top: -372px;
+}
+.avionDescrip{
+    position: absolute;
+    width: 1170px;
+    margin-top: -312px;
+}
+.affichage{
+    opacity: 0;
+    overflow: hidden;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+.marginTopCarousel{
+    margin-top: -1px
+}
+.navCompte{
+    background-image: url(../img/fondBleu.png);
+    background-size: 684px 49px;
+}
+.gras{
+    font-weight: 600!important;
+    color: #ccaa5b!important;
+}
+.jumbotron{
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+}
+.jumboCompte{
+    background-image: url(../img/hey.png);
+    margin-bottom: 0px;
+}
+.borderedDiv{
+    border-style: solid none;
+    border-width: 2px;
+    border-color: #dfdcda;
+}
+.borderedRightDiv{
+    border-right-style: solid;
+    border-width: 2px;
+    border-color: #dfdcda;
+}
+.affichResa, .affichMoyen{
+    position: absolute;
+    width: 1170px;
+    margin-top: -298px;
+}
+.scrollDiv{
+    height: 298px;
+    overflow-y: scroll;
+}
+.height298{
+    height: 298px;
 }
