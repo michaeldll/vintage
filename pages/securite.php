@@ -29,26 +29,6 @@
             width: 100%;
             overflow: hidden;
         }
-        .nav{
-            padding-left: 55px;
-        }
-        .navbar-right{
-            margin-right: 55px !important;
-        }
-        .compte{
-            margin-right: 95px!important;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 500;
-            color: #323232;
-        }
-        .blackened{
-            background-color: #fffaf4;
-            color: #323232;
-        }
-        .nav{
-            font-family: 'Raleway', sans-serif;
-            font-weight: 500;
-        }
         .page-header{
             border-bottom-color: #b9b9b9;
         }
