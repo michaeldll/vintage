@@ -62,7 +62,7 @@
             box-shadow: none!important;
             border: none!important;
         }
-        .panel5, .panel4, .panel3, .panel2, .panel1{
+        .panel5, .panel4, .panel3, .panel2, .panel1, .panel0{
             text-align: center;
             display: none;
             margin-bottom: 20px;
@@ -70,7 +70,7 @@
         .pad{
             padding: 20px 50px;
         }
-        .slide5, .slide4, .slide3, .slide2, .slide1{
+        .slide5, .slide4, .slide3, .slide2, .slide1, .slide0{
             text-align: center;
             background: #CDAA5C;
             position: absolute;
@@ -81,10 +81,10 @@
             -webkit-transition: all ease 0.5s;
             -moz-transition: all ease 0.5s;
         }
-        .slide5:hover, .slide4:hover, .slide3:hover, .slide2:hover, .slide1:hover{
+        .slide5:hover, .slide4:hover, .slide3:hover, .slide2:hover, .slide1:hover, .slide0:hover{
             opacity: 0.5!important;
         }
-        .slide5-content, .slide4-content, .slide3-content, .slide2-content, .slide1-content{
+        .slide5-content, .slide4-content, .slide3-content, .slide2-content, .slide1-content, .slide0-content{
             position: absolute;
             width: 100%;
             height: 20px;
@@ -94,7 +94,7 @@
             margin-top: -12px;
             color: white;
         }
-        .slide5-content i, .slide4-content i, .slide3-content i, .slide2-content i, .slide1-content i{
+        .slide5-content i, .slide4-content i, .slide3-content i, .slide2-content i, .slide1-content i, .slide0-content i{
             margin-top: -12px;
         }
 
@@ -121,8 +121,8 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card">
-                                <div class="securite-hover">
-                                    <div class="securite-hover-content">
+                                <div class="slide0">
+                                    <div class="slide0-content">
                                         <i class="fa fa-plus fa-3x"></i>
                                     </div>
                                 </div>
@@ -165,7 +165,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-12 panel">
+                        <div class="col-md-12 panel0">
                             <div class="card">
                                 <h2>Standards de sécurité</h2>
                                 <p class="pad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam felis ut condimentum facilisis. Phasellus nibh arcu, fringilla et turpis eget, lobortis dignissim ex. Maecenas pulvinar eros ipsum, quis dapibus velit feugiat a. Praesent molestie ut magna sed luctus. Sed maximus leo erat, ut laoreet augue rutrum ut. Proin id varius purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ornare leo bibendum erat hendrerit efficitur. Nullam varius orci hendrerit sodales aliquam. Maecenas et purus eros. Donec ultricies nisl non ex sagittis rutrum. Fusce in mollis magna.</p>
@@ -300,8 +300,8 @@
 
     /* SLIDE SECURITE */
     $(document).ready(function(){
-        $(".securite-hover").click(function(){
-            $(".panel").slideToggle("slow");
+        $(".slide0").click(function(){
+            $(".panel0").slideToggle("slow");
         });
         $(".slide1").click(function(){
             $(".panel1").slideToggle("slow");
