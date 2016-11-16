@@ -131,10 +131,10 @@
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <h3>Panier</h3>
-                    <a href="#">Exemple</a>
                     <a href="#">Ticket</a>
                     <a href="#">Porte-clé</a>
                     <a href="#">T-shirt</a>
+                    <a href="pages/paiement.php">Commander</a>
                 </div>
 
                 <!-- dropdowns -->
