@@ -102,6 +102,69 @@
     .portfolio-hover{
       height: 0;
     }
+    .bouton{
+      width: 65px;
+      padding-right: 10px;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    @media screen and (max-width: 1200px){
+    .filtersBack{
+      background-size: 212px 450px;
+    }
+    }
+    @media screen and (max-width: 992px){
+    .filtersBack{
+      background-size: 157px 360px;
+      margin-top: -64px;
+    }
+    .h2Categories{
+      padding-top: 70px;
+      font-size: 21px;
+    }
+    .tabCategories{
+      margin-top: -4px;
+      margin-left: -6px;
+      font-size: 14px;
+    }
+    .h2Filtres{
+      padding-top: 12px;
+      margin-left: -2px;
+      font-size: 21px;
+      padding-top: 0px;
+    }
+    .tabFiltres{
+      padding-top: 0px;
+    }
+    }
+    @media screen and (max-width: 778px){
+    .filtersBack{
+      background-size: 265px 360px;
+      margin-top: -64px;
+    }
+    .tabCategories{
+      margin-top: -8px;
+    }
+    .responsive438{
+      margin-top: 350px;
+    }
+    }
+    @media screen and (max-width: 588px){
+    .filtersBack{
+      background-size: 265px 360px;
+      margin-top: -64px;
+    }
+    .tabCategories{
+      margin-top: -8px;
+    }
+    .responsive438{
+      margin-top: inherit;
+    }
+    .negativeMargin{
+      margin-top: inherit;
+    }
+    }
     </style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -216,7 +279,7 @@
 
 
     <div class="row ">
-      <div class="col-xs-3 margintop">
+      <div class="col-sm-3 margintop">
         <div class="filtersBack">
           <table class="centered tabCategories">
             <tr>
@@ -263,7 +326,7 @@
           </table>
         </div>
       </div>
-        <div class="col-xs-9 margintop">
+        <div class="col-sm-9 margintop">
           <div class="card-deck-wrapper">
             <div class="card-deck">
 
@@ -325,11 +388,11 @@
 
 
     <div class="row negativeMargin">
-      <div class="col-xs-3">
+      <div class="col-sm-3">
         <div class="empty"></div>
       </div>
 
-        <div class="col-xs-9">
+        <div class="col-sm-9 responsive438">
           <div class="card-deck-wrapper">
             <div class="card-deck">
 
@@ -390,11 +453,11 @@
       </div>
 
     <div class="row negativeMargin">
-      <div class="col-xs-3">
+      <div class="col-sm-3"> 
         <div class="empty"></div>
       </div>
 
-        <div class="col-xs-9">
+        <div class="col-sm-9 responsive438">
           <div class="card-deck-wrapper">
             <div class="card-deck">
 
@@ -454,9 +517,11 @@
         </div>
       </div>
 
-
-
-
+      <div class="row">
+        <div class="col-xs-12 centered">
+          <a href="#"><img src="../img/boutique1.png" class="bouton"></a>
+          <a href="#"><img src="../img/boutique2.png" class="bouton"></a>
+          <a href="#"><img src="../img/boutique3.png" class="bouton"></a>
           </div>
         </div>
       </div>
@@ -485,6 +550,8 @@
 
         </div>
       </div>
+
+
 
       <?php include("footer.php"); ?>
 
