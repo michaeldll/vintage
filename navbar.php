@@ -49,7 +49,7 @@
                         Langue <span class="caret"></span>   
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Français</a></li>
+                        <li><a href="index.php">Français</a></li>
                         <li><a href="#">Anglais</a></li>
                     </ul>
                 </div>
@@ -107,7 +107,7 @@
                                 <h4 class="modal-title">Créer un nouveau compte</h4>
                             </div>
                             <div class="modal-body">
-                                <form action="#" method="post">
+                                <form action="pages/compte.php" method="post">
                                     <p><label for="mail">Mail</label></p>
                                     <p><input class="form-control" type="text" placeholder="Mail" name="mail"></p>
                                     <p><label for="passwd">Mot de passe</label></p>
@@ -143,17 +143,13 @@
                     <ul class="dropdown-menu">
                         <li class="text-uppercase"><a href="pages/preparer.php">Bien se préparer</a></li>
                         <li role="separator" class="divider"></li>
-                        <li class="text-uppercase"><a href="pages/vols.php">Informations vols</a></li>
+                        <li class="text-uppercase"><a href="pages/infovols.php">Informations vols</a></li>
                         <li role="separator" class="divider"></li>
                         <li class="text-uppercase"><a href="pages/aeroport.php">Aéroport Paris - Le Bourget</a></li>
                         <li role="separator" class="divider"></li>
-                        <li class="text-uppercase"><a href="pages/bagages.php">Bagages</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li class="text-uppercase"><a href="pages/meuilleursPrix.php">Trouver les meilleurs prix</a></li>
-                        <li role="separator" class="divider"></li>
                         <li class="text-uppercase"><a href="pages/securite.php">Sécurité</a></li>
                         <li role="separator" class="divider"></li>
-                        <li class="text-uppercase"><a href="pages/wingspoints.php">Les Wings Points</a></li>
+                        <li class="text-uppercase"><a href="pages/wingsPoints.php">Les Wings Points</a></li>
                     </ul>
                 </li>
                 <li class="dropdown text-uppercase">
