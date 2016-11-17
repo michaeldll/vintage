@@ -70,7 +70,7 @@
             <div class="col-md-4">
                 <div class="centered">
                     <ul class="nav navbar-nav">
-                        <li><a class="text-uppercase cacherMonCompte resa cacherMoyen boutonCompte"><h4>Mes reservations</h4></a></li>
+                        <li><a class="text-uppercase cacherMonCompte resa cacherMoyen boutonCompte"><h4>Mes commandes</h4></a></li>
                     </ul>
                 </div>
             </div>
@@ -90,10 +90,10 @@
     <div class="height40"></div>
 
     <!-- index compte -->
-    <div class="affichMonCompte affichage">
+    <div class="affichMonCompte height300">
         <div class="row borderedDiv">
             <div class="col-md-1"></div>
-            <div class="col-md-3">
+            <div class="col-md-3 height300">
                 <div class="row">
                     <div class="col-md-4 marginTop10">
                         <img src="../img/user.svg" height="100%" width="100%">
@@ -113,11 +113,11 @@
                     <input type="date" class="form-control" value="1900-01-01" disabled="disabled">
                 </p>
             </div>
-            <div class="col-md-7">
-                <div class="row">
+            <div class="col-md-7 height300">
+                <div class="row height300">
 
                     <div class="col-md-8 marginTop10">
-                        <form action="#" method="post">
+                        <form action="#" method="post" class="height300">
                             <p>
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="fa fa-at" aria-hidden="true"></i></span>
@@ -148,13 +148,13 @@
                                         <span class="input-group-addon">Abonnement</span>
                                         <select class="form-control">
                                             <option value="1">Aucun</option>
-                                            <option>Carte week-end</option>
-                                            <option>Carte vols réguliers</option>
-                                            <option>Carte "première"</option>
-                                            <option>Carte jeune</option>
-                                            <option>Carte famille</option>
-                                            <option>Carte club</option>
-                                            <option>Carte militaires</option>
+                                            <option>Week-end</option>
+                                            <option>Vols réguliers</option>
+                                            <option>Première</option>
+                                            <option>Jeune</option>
+                                            <option>Famille</option>
+                                            <option>Club</option>
+                                            <option>Militaires</option>
                                         </select>
                                     </div>
                                 </div>
@@ -173,10 +173,10 @@
 
                     <div class="col-md-4 marginTop50">
                         <div class="centered">
-                            <img src="../img/user.svg" height="45%" width="45%">
+                            <img src="../img/logowp.png" height="45%" width="45%">
                         </div>
                         <div class="centered">
-                            <h4>300</h4>
+                            <h3>300 Wings Points</h3>
                         </div>
                         <div class="centered">
                             <p><a href="#" class="footerLink">Comment en avoir plus ?</a></p>
@@ -188,10 +188,11 @@
     </div>
 
     <!-- moyens de paiements -->
-    <div class="affichMoyen height298">
-        <form action="#" method="post">
-            <div class="row">
-                <div class="col-md-6">
+    <div class="affichMoyen height300 affichage">
+        <form action="#" method="post" class="height300">
+            <div class="row borderedDiv">
+                <div class="col-md-1"></div>
+                <div class="col-md-5 marginTop10">
                     <p>
                         <div class="input-group">
                         <span class="input-group-addon">Moyens de paiement</span>
@@ -219,7 +220,7 @@
                         <input type="number" class="form-control" min="1" max="999">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5 marginTop10">
                     <p>
                         <div class="input-group">
                             <span class="input-group-addon">Nom</span>
@@ -255,8 +256,10 @@
                     </div>
                     </p>
                 </div>
-                <div class="centered marginTop20">
-                    <input type="submit" value="Valider" class="btn btn-gold"/>
+                <div class="col-md-12 marginBottom20">
+                    <div class="centered marginTop20">
+                        <input type="submit" value="Valider" class="btn btn-gold"/>
+                    </div>
                 </div>
             </div>
         </form>
@@ -265,10 +268,10 @@
     <!-- réservations -->
     <div class="affichResa affichage">
         <div class="row borderedDiv">
-            <div class="col-md-3 borderedRightDiv height298">
+            <div class="col-md-3 borderedRightDiv height300">
                 <nav class="nav-sidebar">
                     <ul class="nav tabs">
-                        <li class="active"><a href="#tab0" class="footerLink" data-toggle="tab">Mes réservations</a></li>
+                        <li class="active"><a href="#tab0" class="footerLink" data-toggle="tab">Mes commandes récentes</a></li>
                         <li class=""><a href="#tab1" class="footerLink" data-toggle="tab">Historique billets</a></li>
                         <li class=""><a href="#tab2" class="footerLink" data-toggle="tab">Historique boutique</a></li>
                     </ul>
@@ -279,28 +282,28 @@
                     <div class="tab-pane active" id="tab0">
                         <div class="row borderedDiv">
                             <div class="col-md-6">
-                                <h3>Aller</h3>
-                                <h4>Paris <i class="fa fa-arrow-right" aria-hidden="true"></i> Bordeaux</h4>
-                                <h4>Date</h4>
-                                <p>24/12/2016 à 16:03</p>
-                                <h4>Nombre de passagers</h4>
-                                <p>1</p>
-                                <h4>Avion</h4>
-                                <p>Caravelle</p>
-                                <h4>Classe en cabine</h4>
-                                <p>Economique</p>
+                                <h3 class="padding10 couleurCommande">Aller</h3>
+                                <h4 class="padding5">Paris <i class="fa fa-arrow-right" aria-hidden="true"></i> Bordeaux</h4>
+                                <h4 class="padding5 couleurCommande">Date</h4>
+                                <p class="padding5">24/12/2016 à 16:03</p>
+                                <h4 class="padding5 couleurCommande">Nombre de passagers</h4>
+                                <p class="padding5">1</p>
+                                <h4 class="padding5 couleurCommande">Avion</h4>
+                                <p class="padding5">Caravelle</p>
+                                <h4 class="padding5 couleurCommande">Classe en cabine</h4>
+                                <p class="padding5">Economique</p>
                             </div>
                             <div class="col-md-6">
-                                <h3>Retour</h3>
-                                <h4>Bordeaux <i class="fa fa-arrow-right" aria-hidden="true"></i> Paris</h4>
-                                <h4>Date</h4>
-                                <p>29/11/2016 à 10:26</p>
-                                <h4>Nombre de passagers</h4>
-                                <p>1</p>
-                                <h4>Avion</h4>
-                                <p>Caravelle</p>
-                                <h4>Classe en cabine</h4>
-                                <p>Economique</p>
+                                <h3 class="padding10 couleurCommande">Retour</h3>
+                                <h4 class="padding5">Bordeaux <i class="fa fa-arrow-right" aria-hidden="true"></i> Paris</h4>
+                                <h4 class="padding5 couleurCommande">Date</h4>
+                                <p class="padding5">29/11/2016 à 10:26</p>
+                                <h4 class="padding5 couleurCommande">Nombre de passagers</h4>
+                                <p class="padding5">1</p>
+                                <h4 class="padding5 couleurCommande">Avion</h4>
+                                <p class="padding5">Caravelle</p>
+                                <h4 class="padding5 couleurCommande">Classe en cabine</h4>
+                                <p class="padding5">Economique</p>
                             </div>
                         </div>
                         <div class="centered">
@@ -310,42 +313,42 @@
                     <div class="tab-pane" id="tab1">
                         <div class="row borderedDiv">
                             <div class="col-md-6">
-                                <h3>Aller</h3>
-                                <h4>Paris <i class="fa fa-arrow-right" aria-hidden="true"></i> Lyon</h4>
-                                <h4>Date</h4>
-                                <p>08/11/2016 à 16:03</p>
-                                <h4>Nombre de passagers</h4>
-                                <p>1</p>
-                                <h4>Avion</h4>
-                                <p>DC-3</p>
-                                <h4>Classe en cabine</h4>
-                                <p>Economique</p>
+                                <h3 class="padding10 couleurCommande">Aller</h3>
+                                <h4 class="padding5">Paris <i class="fa fa-arrow-right" aria-hidden="true"></i> Lyon</h4>
+                                <h4 class="padding5 couleurCommande">Date</h4>
+                                <p class="padding5">08/11/2016 à 16:03</p>
+                                <h4 class="padding5 couleurCommande">Nombre de passagers</h4>
+                                <p class="padding5">1</p>
+                                <h4 class="padding5 couleurCommande">Avion</h4>
+                                <p class="padding5">DC-3</p>
+                                <h4 class="padding5 couleurCommande">Classe en cabine</h4>
+                                <p class="padding5">Economique</p>
                             </div>
                             <div class="col-md-6">
-                                <h3>Retour</h3>
-                                <h4>Lyon <i class="fa fa-arrow-right" aria-hidden="true"></i> Paris</h4>
-                                <h4>Date</h4>
-                                <p>15/11/2016 à 10:24</p>
-                                <h4>Nombre de passagers</h4>
-                                <p>1</p>
-                                <h4>Avion</h4>
-                                <p>DC-3</p>
-                                <h4>Classe en cabine</h4>
-                                <p>Economique</p>
+                                <h3 class="padding10 couleurCommande">Retour</h3>
+                                <h4 class="padding5">Lyon <i class="fa fa-arrow-right" aria-hidden="true"></i> Paris</h4>
+                                <h4 class="padding5 couleurCommande">Date</h4>
+                                <p class="padding5">15/11/2016 à 10:24</p>
+                                <h4 class="padding5 couleurCommande">Nombre de passagers</h4>
+                                <p class="padding5">1</p>
+                                <h4 class="padding5 couleurCommande">Avion</h4>
+                                <p class="padding5">DC-3</p>
+                                <h4 class="padding5 couleurCommande">Classe en cabine</h4>
+                                <p class="padding5">Economique</p>
                             </div>
                         </div>
                         <div class="row borderedDiv">
                             <div class="col-md-6">
-                                <h3>Aller</h3>
-                                <h4>Paris <i class="fa fa-arrow-right" aria-hidden="true"></i> Toulouse</h4>
-                                <h4>Date</h4>
-                                <p>02/11/2016 à 09:20</p>
-                                <h4>Nombre de passagers</h4>
-                                <p>2</p>
-                                <h4>Avion</h4>
-                                <p>Boeing 707</p>
-                                <h4>Classe en cabine</h4>
-                                <p>Affaire</p>
+                                <h3 class="padding10 couleurCommande">Aller</h3>
+                                <h4 class="padding5">Paris <i class="fa fa-arrow-right" aria-hidden="true"></i> Toulouse</h4>
+                                <h4 class="padding5 couleurCommande">Date</h4>
+                                <p class="padding5">02/11/2016 à 09:20</p>
+                                <h4 class="padding5 couleurCommande">Nombre de passagers</h4>
+                                <p class="padding5">2</p>
+                                <h4 class="padding5 couleurCommande">Avion</h4>
+                                <p class="padding5">Boeing 707</p>
+                                <h4 class="padding5 couleurCommande">Classe en cabine</h4>
+                                <p class="padding5">Affaire</p>
                             </div>
                         </div>
                     </div>
