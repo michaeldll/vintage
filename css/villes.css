@@ -1,0 +1,67 @@
+        .body{
+            z-index: 0;
+        }
+        .jumbotron{
+            background: url("../img/bg44b.png") no-repeat center center;
+            background-size: cover;
+            height: 350px;
+            width: 100%;
+            overflow: hidden;
+        }
+        .page-header{
+            border-bottom-color: #b9b9b9;
+        }
+        .quote{
+        	z-index: 2;
+        	font-size: 24px;
+        	color: white;
+        	margin-top: -260px;
+        }
+        .card-img-top{
+        	width: 100%;
+        }
+        .panel, .securite-hover{
+            text-align: center;
+        }
+        .panel{
+            text-align: center;
+            display: none;
+            background-color: none!important;
+            box-shadow: none!important;
+            border: none!important;
+        }
+        .panel5, .panel4, .panel3, .panel2, .panel1, .panel0{
+            text-align: center;
+            display: none;
+            margin-bottom: 20px;
+        }
+        .pad{
+            padding: 20px 50px;
+        }
+        .slide5, .slide4, .slide3, .slide2, .slide1, .slide0{
+            text-align: center;
+            background: #CDAA5C;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: all ease 0.5s;
+            -webkit-transition: all ease 0.5s;
+            -moz-transition: all ease 0.5s;
+        }
+        .slide5:hover, .slide4:hover, .slide3:hover, .slide2:hover, .slide1:hover, .slide0:hover{
+            opacity: 0.5!important;
+        }
+        .slide5-content, .slide4-content, .slide3-content, .slide2-content, .slide1-content, .slide0-content{
+            position: absolute;
+            width: 100%;
+            height: 20px;
+            font-size: 20px;
+            text-align: center;
+            top: 50%;
+            margin-top: -12px;
+            color: white;
+        }
+        .slide5-content i, .slide4-content i, .slide3-content i, .slide2-content i, .slide1-content i, .slide0-content{
+            margin-top: -12px;
+        }
