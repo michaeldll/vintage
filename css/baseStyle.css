@@ -632,17 +632,20 @@ ul.lienFlotte li{
 .marginTop25{
     margin-top: 25px;
 }
-.marginTop40{
-    margin-top: 40px;
-}
 .marginTop10{
     margin-top: 10px;
 }
-.marginTop50{
-    margin-top: 50px;
-}
 .marginTop20{
     margin-top: 20px;
+}
+.marginTop30{
+    margin-top: 30px;
+}
+.marginTop40{
+    margin-top: 40px;
+}
+.marginTop50{
+    margin-top: 50px;
 }
 .marginTop180{
     margin-top: 180px;
