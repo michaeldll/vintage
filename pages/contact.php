@@ -29,27 +29,31 @@
 
     <div class="row">
         <!-- contact partie gauche -->
-        <div class="col-md-6 sidebar contact">
+        <div class="col-md-6 sidebar fondCuirBleu whiteText">
             <div class="height40"></div>
-            <h1>Vintage Wings</h1>
-            <br/>
-            <h3>Vous souhaitez en savoir plus ?</h3>
-            <div class="row">
+            <h1 class="marginBottom20">Vous souhaitez en savoir plus ?</h1>
+            <h4>Notre équipe est prête à répondre à vos questions.</h4></h3>
+            <div class="row marginTop40">
                 <div class="col-md-3">
-                    <h3>Email :</h3>
-                    <h3>Téléphone :</h3>
-                    <h3>Réseaux sociaux :</h3>
+                    <h4 class="marginTop20">Email :</h4>
+                    <h4 class="marginTop20">Téléphone :</h4>
+                    <h4 class="marginTop20">Réseaux<br/>sociaux :</h4>
                 </div>
                 <div class="col-md-9">
-                    <h3>vintagewings@airfrance.fr</h3>
-                    <h3>+33 (0)1.02.03.04.05</h3>
-                    <span><img src="../img/facebook-logo.svg" class="logoReseau"><img src="../img/twitter-logo.svg" class="logoReseau"></span>
+                    <h4 class="marginTop20">vintage@wings.fr</h4>
+                    <h4 class="marginTop20">+33 (0)1.02.03.04.05</h4>
+                    <div class="row marginTop20">
+                        <div class="col-md-2 noPadding"><img src="../img/blancfb.svg" class="logoReseau"></div>
+                        <div class="col-md-2 noPadding"><img src="../img/blanctwitter.svg" class="logoReseau"></div>
+                        <div class="col-md-2 noPadding"><img src="../img/blancinsta.svg" class="logoReseau"></div>
+                        <div class="col-md-2 noPadding"><img src="../img/blancyt.svg" class="logoReseau"></div>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h3><a href="https://www.google.fr/maps/place/A%C3%A9roport+de+Paris+-+Le+Bourget/@48.9588697,2.4270812,13.5z/data=!4m5!3m4!1s0x47e66b16c1305e17:0xb73c3697323e1c05!8m2!3d48.9614725!4d2.437202" id="gMaps"><img src="../img/map-marker.svg" class="mapMarker">Retrouver nous sur Google Maps</a></h3>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29638.712950371195!2d2.427081169215751!3d48.95886970181454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66b16c1305e17%3A0xb73c3697323e1c05!2sA%C3%A9roport+de+Paris+-+Le+Bourget!5e0!3m2!1sfr!2sfr!4v1478615795206" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <h4><a href="https://www.google.fr/maps/place/A%C3%A9roport+de+Paris+-+Le+Bourget/@48.9588697,2.4270812,13.5z/data=!4m5!3m4!1s0x47e66b16c1305e17:0xb73c3697323e1c05!8m2!3d48.9614725!4d2.437202" id="gMaps" class="footerLink whiteText"><img src="../img/map-marker.svg" class="mapMarker">Retrouver nous sur Google Maps</a></h4>
+                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=14k3BYZL9IZGecGBzq9i37SAz_Go&z=13" width="640" height="480" class="margintop"></iframe>
                 </div>
             </div>
         </div>
@@ -57,30 +61,36 @@
         <!-- contact partie droite -->
         <div class="col-md-6">
             <div class="height40"></div>
-            <h1>Faites nous savoir vos envies</h1>
-            <br/>
-            <form action="#" method="post">
+            <h1 class="marginBottom20">Faites nous savoir vos envies.</h1>
+            <h4>Grâce à vous, nous pourrons améliorer notre compagnie pour votre bonheur.</h4>
+            <form action="#" method="post" class="marginTop50">
                 <p>
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
-                        <input class="form-control" type="text" placeholder="Nom">
+                    <div class="input-group marginBottom20">
+                        <span class="input-group-addon couleurBleu whiteText"><i class="fa fa-user" aria-hidden="true"></i></span>
+                        <input class="form-control couleurBleu whiteText" type="text" placeholder="Nom">
                     </div>
                 </p>
                 <p>
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-at" aria-hidden="true"></i></span>
-                        <input class="form-control" type="text" placeholder="Email">
+                    <div class="input-group marginBottom20">
+                        <span class="input-group-addon couleurBleu whiteText"><i class="fa fa-at" aria-hidden="true"></i></span>
+                        <input class="form-control couleurBleu whiteText" type="text" placeholder="Email">
                     </div>
                 </p>
                 <p>
+                <div class="input-group marginBottom20">
+                    <span class="input-group-addon couleurBleu whiteText"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <input class="form-control couleurBleu whiteText" type="text" placeholder="Téléphone">
+                </div>
+                </p>
+                <p>
                     <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                        <textarea class="form-control" rows="5" placeholder="Votre message"></textarea>
+                        <span class="input-group-addon couleurBleu whiteText"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <textarea class="form-control couleurBleu whiteText" rows="5" placeholder="Votre message"></textarea>
                     </div>
                 </p>
                 <p>
-                    <div class="centered">
-                        <input type="submit" value="Envoyer" class="btn btn-lg btn-primary"/>
+                    <div class="centered marginTop40">
+                        <input type="submit" value="Envoyer" class="btn btn-lg btn-gold"/>
                     </div>
                 </p>
             </form>
