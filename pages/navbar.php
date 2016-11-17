@@ -23,7 +23,7 @@
             <!-- liens a gauche -->
             <ul class="nav navbar-nav navbar-left">
                 <li class="active text-uppercase"><a href="../index.php">Accueil <span class="sr-only">(current)</span></a></li>
-                <li class="text-uppercase"><a href="reserver.php">Réserver un vol</a></li>
+                <li class="text-uppercase"><a href="voltraditionnel.php">Réserver un vol</a></li>
                 <li class="text-uppercase"><a href="reservation.php">Mes réservations</a></li>
                 
                 <!-- Vintage wings typo -->
@@ -49,7 +49,7 @@
                         Langue <span class="caret"></span>   
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Français</a></li>
+                        <li><a href="../index.php">Français</a></li>
                         <li><a href="#">Anglais</a></li>
                     </ul>
                 </div>
@@ -107,7 +107,7 @@
                                 <h4 class="modal-title">Créer un nouveau compte</h4>
                             </div>
                             <div class="modal-body">
-                                <form action="#" method="post">
+                                <form action="compte.php" method="post">
                                     <p><label for="mail">Mail</label></p>
                                     <p><input class="form-control" type="text" placeholder="Mail" name="mail"></p>
                                     <p><label for="passwd">Mot de passe</label></p>
@@ -131,39 +131,35 @@
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <h3>Panier</h3>
-                    <a href="#">Exemple</a>
                     <a href="#">Ticket</a>
                     <a href="#">Porte-clé</a>
                     <a href="#">T-shirt</a>
+                    <a href="paiement.php">Commander</a>
                 </div>
 
                 <!-- dropdowns -->
                 <li class="dropdown text-uppercase">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informations <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li class="text-uppercase"><a href="#">Bien se préparer</a></li>
+                        <li class="text-uppercase"><a href="preparer.php">Bien se préparer</a></li>
                         <li role="separator" class="divider"></li>
-                        <li class="text-uppercase"><a href="#">Informations vols</a></li>
+                        <li class="text-uppercase"><a href="infovols.php">Informations vols</a></li>
                         <li role="separator" class="divider"></li>
-                        <li class="text-uppercase"><a href="#">Aéroport Paris - Le Bourget</a></li>
+                        <li class="text-uppercase"><a href="aeroport.php">Aéroport Paris - Le Bourget</a></li>
                         <li role="separator" class="divider"></li>
-                        <li class="text-uppercase"><a href="#">Bagages</a></li>
+                        <li class="text-uppercase"><a href="securite.php">Sécurité</a></li>
                         <li role="separator" class="divider"></li>
-                        <li class="text-uppercase"><a href="#">Trouver les meilleurs prix</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li class="text-uppercase"><a href="#">Sécurité</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li class="text-uppercase"><a href="#">Les Wings Points</a></li>
+                        <li class="text-uppercase"><a href="wingsPoints.php">Les Wings Points</a></li>
                     </ul>
                 </li>
                 <li class="dropdown text-uppercase">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">A propos <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li class="text-uppercase"><a href="#">Historique</a></li>
+                        <li class="text-uppercase"><a href="historique.php">Historique</a></li>
                         <li role="separator" class="divider"></li>
                         <li class="text-uppercase"><a href="flotte.php">Notre flotte</a></li>
                         <li role="separator" class="divider"></li>
-                        <li class="text-uppercase"><a href="#">Villes desservies</a></li>
+                        <li class="text-uppercase"><a href="villes.php">Villes desservies</a></li>
                     </ul>
                 </li>
 

@@ -11,160 +11,20 @@
     <meta name="description" content="Reservez un voyage dans un avion légéndaire!">
     <meta name="author" content="Vintage Wings">
     <meta name="keywords" content="Vintage, Wings, Vol, Reservation">
-    <link rel="icon" type="image/ico" href="http://195.83.128.55/~mmid116a05/img/icone1.ico">
+    <link rel="icon" type="image/ico" href="../img/favicon.ico">
     <title>Vintage Wings</title>
     <script src="https://use.fontawesome.com/ffa9c99182.js"></script>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/baseStyle.css" rel="stylesheet">
+    <link href="../css/boutique.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Taviraj" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
     <style> 
-    .boutique {
-      margin-top: -390px;
-      z-index: 2;
-      color: white;
-    }
-    .jumbotron{
-        background: url("../img/bg44b.png") no-repeat center center;
-        background-size: cover;
-        height: 450px;
-        width: 100%;
-        overflow: hidden;
-    }
-    .page-header{
-        border-bottom-color: #b9b9b9;
-    }
-    .quote{
-      z-index: 2;
-      font-size: 24px;
-      color: white;
-    }
-    .aileDoree{
-      background: url("../img/aileDoree.svg") no-repeat;
-      height: 10px;
-    }
-    .flip{
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
-    }
-    .margintop{
-      margin-top: 60px;
-    }
-    .marginbot{
-      margin-bottom: 10px;
-    }
-    .filtersBack{
-      background-image: url("../img/categoriefiltre.svg");
-      background-repeat: no-repeat;
-      background-position: center center;
-      z-index: 2;
-      height: 450px;
-      background-size: 260px 450px;
-      margin-top: -20px;
-    }
-    table a{
-      text-decoration: none;
-      color: black;
-    }
-    .negativeMargin{
-      margin-top: -300px;
-    }
-    .tabFiltres{
-      text-align: left;
-      padding-top: 10px;
-      margin-left: 26px;
-    }
-    .tabCategories{
-      padding-top: 7px;
-      text-align: left;
-      margin-left: -6px;
-    }
-    .h2Categories{
-      padding-top: 30px;
-      font-size: 24px;
-      color: #CEAA5C;
-    }
-    .h2Filtres{
-      padding-top: 43px;
-      margin-left: -13px;
-      font-size: 24px;
-      color: #CEAA5C;
-    }
-    .heart{
-      text-align: right;
-      margin-top: -30px;
-    }
-    .card-text:last-child {
-        margin-bottom: 5px;
-    }
-    .portfolio-hover{
-      height: 0;
-    }
-    .bouton{
-      width: 65px;
-      padding-right: 10px;
-      padding-left: 10px;
-      margin-bottom: 20px;
-      margin-top: 20px;
-    }
-    @media screen and (max-width: 1200px){
-    .filtersBack{
-      background-size: 212px 450px;
-    }
-    }
-    @media screen and (max-width: 992px){
-    .filtersBack{
-      background-size: 157px 360px;
-      margin-top: -64px;
-    }
-    .h2Categories{
-      padding-top: 70px;
-      font-size: 21px;
-    }
-    .tabCategories{
-      margin-top: -4px;
-      margin-left: -6px;
-      font-size: 14px;
-    }
-    .h2Filtres{
-      padding-top: 12px;
-      margin-left: -2px;
-      font-size: 21px;
-      padding-top: 0px;
-    }
-    .tabFiltres{
-      padding-top: 0px;
-    }
-    }
-    @media screen and (max-width: 778px){
-    .filtersBack{
-      background-size: 265px 360px;
-      margin-top: -64px;
-    }
-    .tabCategories{
-      margin-top: -8px;
-    }
-    .responsive438{
-      margin-top: 350px;
-    }
-    }
-    @media screen and (max-width: 588px){
-    .filtersBack{
-      background-size: 265px 360px;
-      margin-top: -64px;
-    }
-    .tabCategories{
-      margin-top: -8px;
-    }
-    .responsive438{
-      margin-top: inherit;
-    }
-    .negativeMargin{
-      margin-top: inherit;
-    }
-    }
     </style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>

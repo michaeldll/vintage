@@ -11,147 +11,18 @@
     <meta name="description" content="Reservez un voyage dans un avion légéndaire!">
     <meta name="author" content="Vintage Wings">
     <meta name="keywords" content="Vintage, Wings, Vol, Reservation">
-    <link rel="icon" type="image/ico" href="http://195.83.128.55/~mmid116a05/img/icone1.ico">
+    <link rel="icon" type="image/ico" href="../img/favicon.ico">
     <title>Vintage Wings</title>
     <script src="https://use.fontawesome.com/ffa9c99182.js"></script>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/baseStyle.css" rel="stylesheet">
-    <style> 
-    .boutique {
-      margin-top: -90px;
-      z-index: 2;
-      color: white;
-    }
-    .panier{
-      z-index: 2;
-      color: white;
-      width: 96%;
-      height: 99%;
-    }
-    .paiement{
-      margin-top: -90px;
-      margin-left: 180px;
-      z-index: 2;
-      color: white;
-    }
-    .jumbotron{
-      background: url("../img/fildarianedoreblanc.png") no-repeat center center;
-      background-size: 100% 75px;
-      height: 75px !important;
-      width: 100%;
-      overflow: hidden;
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-    .page-header{
-      border-bottom-color: #b9b9b9;
-    }
-    .quote{
-      z-index: 2;
-      font-size: 24px;
-      color: white;
-    }
-    .aileDoree{
-      background: url("../img/aileDoree.svg") no-repeat;
-      height: 15px;
-    }
-    .flip{
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
-    }
-    .margintop{
-      margin-top: 60px;
-    }
-    .marginbot{
-      margin-bottom: 35px;
-    }
-    table a{
-      text-decoration: none;
-      color: black;
-    }
-    .negativeMargin{
-      margin-top: -300px;
-    }
-    .heart{
-      text-align: right;
-      margin-top: -30px;
-    }
-    .card-text:last-child {
-        margin-bottom: 5px;
-    }
-    .portfolio-hover{
-      height: 0;
-    }
-    .panierBack{
-      background-image: url("../img/cadrepanierpaiement.png");
-      background-repeat: no-repeat;
-      background-position: center center;
-      z-index: 2;
-      height: 500px;
-      background-size: 100% 100%;
-    }
-    .imgPanier{
-      width: 100px;
-    }
-    .croix{
-      width: 20px;
-      margin-top: -57%;
-      position: relative;
-      margin-left: 70%;
-    }
-    .bouton{
-      width: 100%;
-    }
-    table td{
-      color: black !important;
-    }
-    .ariane{
-      list-style: none;
-      padding-left: 78px;
-      margin-top: 15px;
-    }
-    .ariane li{
-      position: relative;
-      display: inline-block;
-      padding-right: 18px;
-    }
-    .ariane li a{
-      color: white;
-    }
-    .ticketDore{
-      width: 160px;
-      margin: 20px 50px;
-    }
-    .total{
-      display: flex;
-      margin-top: -40px;
-    }
-    .w25{
-      width: 25%;
-    }
-    .m7{
-      margin-top: 7%;
-    }
-    @media screen and (max-width: 778px){
-      .m7{
-        margin-top: 8%;
-      }
-      .croix{
-        width: 20px;
-        margin-top: -125px;
-        position: relative;
-        margin-left: 72%;
-      }
-    }
-    </style>
+    <link href="../css/paiement.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Taviraj" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
   <body>

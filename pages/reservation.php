@@ -11,208 +11,19 @@
     <meta name="description" content="Reservez un voyage dans un avion légéndaire!">
     <meta name="author" content="Vintage Wings">
     <meta name="keywords" content="Vintage, Wings, Vol, Reservation">
-    <link rel="icon" type="image/ico" href="http://195.83.128.55/~mmid116a05/img/icone1.ico">
+    <link rel="icon" type="image/ico" href="../img/favicon.ico">
     <title>Vintage Wings</title>
     <script src="https://use.fontawesome.com/ffa9c99182.js"></script>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/baseStyle.css" rel="stylesheet">
+    <link href="../css/reservation.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Taviraj" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>
-        .body{
-            z-index: 0;
-        }
-        .jumbotron{
-            background: url("../img/bg44.jpg") no-repeat center center;
-            background-size: cover;
-            height: 350px;
-            width: 100%;
-            overflow: hidden;
-        }
-        .page-header{
-            border-bottom-color: #b9b9b9;
-        }
-        .billet{
-            background-image: url("../img/billet.png");
-            background-repeat: no-repeat;
-            background-position: center center;
-            z-index: 2;
-            height: 445px;
-            margin-bottom: 5vh;
-        }
-        .modifGaucheGauche{
-          width: 26px;
-          height: 26px;
-          z-index: 3;
-          padding-left: 95px;
-        }
-        .modifGaucheDroite{
-          width: 26px;
-          height: 26px;
-          z-index: 3;
-          padding-left: 95px;
-        }
-        .modifDroite{
-          width: 26px;
-          height: 26px;
-          z-index: 3;
-          padding-left: 60px;
-        }
-        table{
-            font-family: 'Open Sans', sans-serif;
-        }
-        .billet h2{
-            font-size: 30px;
-            color: #faf7ff;
-            margin-left: 150px;
-            margin-top: 45px;
-            font-family: 'Open Sans', sans-serif;
-        }
-        .billet table th{
-            font-size: 24px;
-        }
-        .billet table td{
-            font-size: 16px;
-        }
-        table{
-            display: inline-block;
-        }
-        .aller{
-            margin-left: 30px;
-            margin-top: 67px;
-        }
-
-        .retour{
-            margin-left: 107px;
-        }
-
-        .details{
-            margin-top: 47px;
-            margin-left: 30px;
-        }
-        .details td span{
-            font-size: 24px
-        }
-
-        .place{
-            padding-left: 40px
-        }
-        .prix{
-            padding-left: 40px
-        }
-        .reference{
-            padding-left: 70px
-        }
-        .passager{
-            margin-left: 30px;
-            margin-top: 60px;
-        }
-        .allerRetour{
-            padding-bottom: 20px;
-        }
-        th{
-            font-weight: normal;
-        }
-        .pad5{
-            padding-top: 5px;
-        }
-        @media screen and (max-width: 1200px){
-            .billet {
-                height: 391px;
-                background-size: 980px 391px;
-            }
-            .aller{
-                margin-left: 1px;
-                margin-top: 47px;
-            }
-            .retour{
-                margin-left: 59px;
-            }
-            .details{
-                margin-top: 17px;
-                margin-left: 1px;
-            }
-            .details td span{
-                font-size: 19px
-            }
-            .prix{
-                padding-left: 30px;
-            }
-            .place{
-                padding-left: 30px;
-            }
-            .reference{
-                padding-left: 49px;
-            }
-            .modifDroite{
-                padding-left: 40px;
-            }
-        @media screen and (max-width: 992px){
-            .billet {
-                height: 295px;
-                background-size: 739px 315px;
-            }
-            .billet h2{
-                font-size: 24px;
-                margin-left: 100px;
-                margin-top: 24px;
-            }
-            .modifGaucheGauche{
-                padding-left: 55px;
-            }
-            .aller{
-                margin-left: 4px;
-                margin-top: 37px;
-            }
-            .retour{
-                margin-left: 60px;
-            }
-            .details{
-                margin-top: 6px;
-                margin-left: 1px;
-            }
-            .details td span{
-                font-size: 19px
-            }
-            .prix{
-                padding-left: 30px;
-            }
-            .place{
-                padding-left: 30px;
-            }
-            .reference{
-                padding-left: 10px;
-            }
-            .modifDroite{
-                padding-left: 10px;
-            }
-            .modifGaucheDroite{
-                padding-left: 55px;
-            }
-            .billet table th{
-                font-size: 18px;
-            }
-            .billet table td{
-                font-size: 12px;
-            }
-            .allerRetour{
-                padding-bottom: 6px;
-            }
-            .passager{
-                margin-left: 30px;
-                margin-top: 30px;
-            }
-        @media screen and (max-width: 781px){
-            html{
-                width: 781px;
-            }
-        }
-    </style>
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Taviraj" rel="stylesheet">
 </head>
 <body>
 
@@ -356,7 +167,7 @@
 
 
 </div> <!-- fin container -->
-
+<?php include('footer.php'); ?>
 <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -407,6 +218,5 @@
     });
 
 </script>
-<?php include('footer.php'); ?>
 </body>
 </html>
