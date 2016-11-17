@@ -109,6 +109,30 @@
         .depasserFond{
             margin-top: -190px;
         }
+        .w17{
+            width: 18%;
+        }
+        .navTop {
+          margin-top: -460px;
+          z-index: 2;
+          color: white;
+        }
+        .navTop h2{
+            font-size: 18px;
+            color: grey;
+        }
+        .navTop a{
+            color: grey;
+        }
+        .navtop a:hover{
+            color: white;
+        }
+        .active h2{
+            color: white;
+        }
+        .active a{
+            color: white;
+        }
     </style>
     <link href="https://fonts.googleapis.com/css?family=Raleway|Taviraj" rel="stylesheet">
 </head>
@@ -122,6 +146,16 @@
 
 
 <div class="container">
+    <div class="row">
+        <div class="col-sm-12 centered">
+            <div class="col-sm-2 w17">
+                <div class="navTop"><a href="voltraditionnel.php"><h2>VOL TRADITIONNEL</h2></a></div>
+            </div>
+            <div class="col-sm-2 w17">
+                <div class="navTop active"><a href="volevenementiel.php"><h2>VOL EVENEMENTIEL</h2></a></div>
+            </div>
+        </div>
+    </div>
 	<div class="row">
 		<div class="col-md-12">
 			<div class="centered quote">"Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content."</div>
