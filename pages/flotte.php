@@ -109,10 +109,10 @@
 
                         <div class="carousel-inner">
                             <div class="item active">
-                                <a href="../img/hey.png" title="avion1" class="zoombox zgallery1"><img src="../img/hey.png" width="100%" height="100%"></a>
+                                <a href="../img/707-1.jpg" title="Boeing 707" class="zoombox zgallery1"><img src="../img/tb707-1.jpg" width="100%" height="100%"></a>
                             </div>
                             <div class="item">
-                                <a href="../img/hey.png" title="avion1" class="zoombox zgallery1"><img src="../img/hey.png" width="100%" height="100%"></a>
+                                <a href="../img/707-2.jpg" title="Boeing 707" class="zoombox zgallery1"><img src="../img/tb707-2.jpg" width="100%" height="100%"></a>
                             </div>
                         </div>
                     </div>
@@ -205,10 +205,10 @@
 
                         <div class="carousel-inner">
                             <div class="item active">
-                                <a href="../img/hey2.png" title="avion2" class="zoombox zgallery2"><img src="../img/hey.png" width="100%" height="100%"></a>
+                                <a href="../img/trimotor2.jpg" title="Ford Trimotor" class="zoombox zgallery2"><img src="../img/tbTrimotor-1.jpg" width="100%" height="100%"></a>
                             </div>
                             <div class="item">
-                                <a href="../img/hey2.png" title="avion2" class="zoombox zgallery2"><img src="../img/hey.png" width="100%" height="100%"></a>
+                                <a href="../img/tbTrimotor-2.jpg" title="Ford Trimotor" class="zoombox zgallery2"><img src="../img/tbTrimotor-2.jpg" width="100%" height="100%"></a>
                             </div>
                         </div>
                     </div>
@@ -302,10 +302,10 @@
 
                         <div class="carousel-inner">
                             <div class="item active">
-                                <a href="../img/hey.png" title="avion3" class="zoombox zgallery3"><img src="../img/hey.png" width="100%" height="100%"></a>
+                                <a href="../img/caravelle1.jpg" title="Caravelle" class="zoombox zgallery3"><img src="../img/tbCaravelle-1.jpg" width="100%" height="100%"></a>
                             </div>
                             <div class="item">
-                                <a href="../img/hey.png" title="avion3" class="zoombox zgallery3"><img src="../img/hey.png" width="100%" height="100%"></a>
+                                <a href="../img/caravelle2.jpg" title="Caravelle" class="zoombox zgallery3"><img src="../img/tbCaravelle-2.jpg" width="100%" height="100%"></a>
                             </div>
                         </div>
                     </div>
@@ -371,7 +371,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="centered">
-                        <h3 class="text-uppercase blueText">Boeing 707</h3>
+                        <h3 class="text-uppercase blueText">Douglas DC-3</h3>
                     </div>
                 </div>
                 <div class="col-md-4 noPadding">
@@ -399,10 +399,10 @@
 
                         <div class="carousel-inner">
                             <div class="item active">
-                                <a href="../img/hey.png" title="avion4" class="zoombox zgallery4"><img src="../img/hey.png" width="100%" height="100%"></a>
+                                <a href="../img/dc3-1.jpg" title="Douglas DC-3" class="zoombox zgallery4"><img src="../img/tbDC3-1.jpg" width="100%" height="100%"></a>
                             </div>
                             <div class="item">
-                                <a href="../img/hey.png" title="avion4" class="zoombox zgallery4"><img src="../img/hey.png" width="100%" height="100%"></a>
+                                <a href="../img/dc3-2.jpg" title="Douglas DC-3" class="zoombox zgallery4"><img src="../img/tbDC3-2.jpg" width="100%" height="100%"></a>
                             </div>
                         </div>
                     </div>
