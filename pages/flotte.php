@@ -17,6 +17,7 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/baseStyle.css" rel="stylesheet">
     <link href="../zoombox/zoombox.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Taviraj" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -223,13 +224,12 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo laoreet magna, quis sagittis est finibus vel. Quisque aliquam massa eros, quis facilisis ligula sollicitudin a. Duis nec convallis neque. Praesent pharetra, arcu a pharetra placerat, libero arcu fringilla turpis, eu porttitor justo velit ullamcorper odio.
                     </p>
                     <div class="centered">
-                        <button class="centered btn btn-blue slide2">Voir plus</button>
+                        <button class="centered btn btn-blue slide2">Caractéristiques</button>
                     </div>
                 </div>
 
                 <!-- Caractéristique avion 2 -->
                 <div class="row panel2">
-                    <div class="centered">Caractéristiques</div>
                     <div class="col-md-offset-1 col-md-10">
                         <table class="table table-striped">
 
@@ -320,13 +320,12 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo laoreet magna, quis sagittis est finibus vel. Quisque aliquam massa eros, quis facilisis ligula sollicitudin a. Duis nec convallis neque. Praesent pharetra, arcu a pharetra placerat, libero arcu fringilla turpis, eu porttitor justo velit ullamcorper odio.
                     </p>
                     <div class="centered">
-                        <button class="centered btn btn-blue slide3">Voir plus</button>
+                        <button class="centered btn btn-blue slide3">Caractéristiques</button>
                     </div>
                 </div>
 
                 <!-- Caractéristique avion 3 -->
                 <div class="row panel3">
-                    <div class="centered">Caractéristiques</div>
                     <div class="col-md-offset-1 col-md-10">
                         <table class="table table-striped">
 
@@ -417,13 +416,12 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo laoreet magna, quis sagittis est finibus vel. Quisque aliquam massa eros, quis facilisis ligula sollicitudin a. Duis nec convallis neque. Praesent pharetra, arcu a pharetra placerat, libero arcu fringilla turpis, eu porttitor justo velit ullamcorper odio.
                     </p>
                     <div class="centered">
-                        <button class="centered btn btn-blue slide4">Voir plus</button>
+                        <button class="centered btn btn-blue slide4">Caractéristiques</button>
                     </div>
                 </div>
 
                 <!-- Caractéristique avion 4 -->
                 <div class="row panel4">
-                    <div class="centered">Caractéristiques</div>
                     <div class="col-md-offset-1 col-md-10">
                         <table class="table table-striped">
 

@@ -17,6 +17,7 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/baseStyle.css" rel="stylesheet">
     <link href="../zoombox/zoombox.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Taviraj" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -34,17 +35,6 @@
 <?php include("navbar.php"); ?>
 
 <div class="jumbotron jumboCompte">
-    <div class="container marginTop180">
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <div class="centered">
-                    <img src="../img/user.svg" height="20%" width="20%">
-                    <h2 class="whiteText marginL15">Mon compte</h2>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 <!-- navbar compte -->
 <nav class="navbar height60">
@@ -87,6 +77,13 @@
 
 <!-- contenu compte -->
 <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="centered jumboTexteFlotte"><h1>Mon compte</h1></div>
+            <div class="centered quote">Bienvenue dans l’escadrille Vintage Wings, cher Wingser ! Retrouvez ici vos informations de paiements et vos historiques de commandes.</div>
+        </div>
+    </div>
+
     <div class="height40"></div>
 
     <!-- index compte -->
