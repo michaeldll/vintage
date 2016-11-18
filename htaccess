@@ -1,0 +1,7 @@
+AuthUserFile /home/etudiants/mmid116a05/public_html/vintagewings/htpasswd
+AuthGroupFile /dev/null
+AuthName "Acces securise au site Vintage Wings"
+AuthType Basic
+<LIMIT GET POST>
+Require valid-user
+</LIMIT>
