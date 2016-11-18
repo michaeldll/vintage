@@ -854,12 +854,14 @@ footer{
     background-color: rgba(0,0,0);
 }
 .jumboCompte{
-    background-image: url(../img/hey.png);
+    background-image: url(../img/ciel7.jpg);
     margin-bottom: 0px;
+    background-position: 0 -300px;
 }
 .jumboFlotte{
-    background-image: url(../img/hey.png);
+    background-image: url(../img/ciel10.jpg);
     margin-bottom: 0px;
+    filter: brightness(0.7);
 }
 .borderedDiv{
     border-style: solid none;
