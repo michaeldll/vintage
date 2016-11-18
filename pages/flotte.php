@@ -93,7 +93,7 @@
                     <div class="centered">
                         <h4 class="text-uppercase blueText">Histoire</h4>
                     </div>
-                    <p>
+                    <p class="tavirajFont">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo laoreet magna, quis sagittis est finibus vel. Quisque aliquam massa eros, quis facilisis ligula sollicitudin a. Duis nec convallis neque. Praesent pharetra, arcu a pharetra placerat, libero arcu fringilla turpis, eu porttitor justo velit ullamcorper odio.
                     </p>
                 </div>
@@ -123,7 +123,7 @@
                     <div class="centered">
                         <h4 class="text-uppercase blueText">Embarqué !</h4>
                     </div>
-                    <p>
+                    <p class="tavirajFont">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo laoreet magna, quis sagittis est finibus vel. Quisque aliquam massa eros, quis facilisis ligula sollicitudin a. Duis nec convallis neque. Praesent pharetra, arcu a pharetra placerat, libero arcu fringilla turpis, eu porttitor justo velit ullamcorper odio.
                     </p>
                     <div class="centered">
@@ -189,7 +189,7 @@
                     <div class="centered">
                         <h4 class="text-uppercase blueText">Histoire</h4>
                     </div>
-                    <p>
+                    <p class="tavirajFont">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo laoreet magna, quis sagittis est finibus vel. Quisque aliquam massa eros, quis facilisis ligula sollicitudin a. Duis nec convallis neque. Praesent pharetra, arcu a pharetra placerat, libero arcu fringilla turpis, eu porttitor justo velit ullamcorper odio.
                     </p>
                 </div>
@@ -219,7 +219,7 @@
                     <div class="centered">
                         <h4 class="text-uppercase blueText">Embarqué !</h4>
                     </div>
-                    <p>
+                    <p class="tavirajFont">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo laoreet magna, quis sagittis est finibus vel. Quisque aliquam massa eros, quis facilisis ligula sollicitudin a. Duis nec convallis neque. Praesent pharetra, arcu a pharetra placerat, libero arcu fringilla turpis, eu porttitor justo velit ullamcorper odio.
                     </p>
                     <div class="centered">
@@ -286,7 +286,7 @@
                     <div class="centered">
                         <h4 class="text-uppercase blueText">Histoire</h4>
                     </div>
-                    <p>
+                    <p class="tavirajFont">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo laoreet magna, quis sagittis est finibus vel. Quisque aliquam massa eros, quis facilisis ligula sollicitudin a. Duis nec convallis neque. Praesent pharetra, arcu a pharetra placerat, libero arcu fringilla turpis, eu porttitor justo velit ullamcorper odio.
                     </p>
                 </div>
@@ -316,7 +316,7 @@
                     <div class="centered">
                         <h4 class="text-uppercase blueText">Embarqué !</h4>
                     </div>
-                    <p>
+                    <p class="tavirajFont">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo laoreet magna, quis sagittis est finibus vel. Quisque aliquam massa eros, quis facilisis ligula sollicitudin a. Duis nec convallis neque. Praesent pharetra, arcu a pharetra placerat, libero arcu fringilla turpis, eu porttitor justo velit ullamcorper odio.
                     </p>
                     <div class="centered">
@@ -383,7 +383,7 @@
                     <div class="centered">
                         <h4 class="text-uppercase blueText">Histoire</h4>
                     </div>
-                    <p>
+                    <p class="tavirajFont">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo laoreet magna, quis sagittis est finibus vel. Quisque aliquam massa eros, quis facilisis ligula sollicitudin a. Duis nec convallis neque. Praesent pharetra, arcu a pharetra placerat, libero arcu fringilla turpis, eu porttitor justo velit ullamcorper odio.
                     </p>
                 </div>
@@ -413,7 +413,7 @@
                     <div class="centered">
                         <h4 class="text-uppercase blueText">Embarqué !</h4>
                     </div>
-                    <p>
+                    <p class="tavirajFont">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo laoreet magna, quis sagittis est finibus vel. Quisque aliquam massa eros, quis facilisis ligula sollicitudin a. Duis nec convallis neque. Praesent pharetra, arcu a pharetra placerat, libero arcu fringilla turpis, eu porttitor justo velit ullamcorper odio.
                     </p>
                     <div class="centered">
